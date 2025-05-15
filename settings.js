@@ -43,7 +43,7 @@ global.packname = 'Drixas-bot'
 global.botname = 'Drixas-ᑲ᥆𝗍'
 global.wm = 'ৎ୭࠭͢𝐘𝐮𝐤𝐢_𝐒𝐮𝐨𝐮-𝐁𝐨𝐭ⷭ𓆪͟͞ '
 global.author = 'Made By ⁱᵃᵐ|𝔇ĕ𝐬†𝓻⊙γ𒆜'
-global.dev = ' 'drixas-bot• Powered  ᑲᥡ ⁱᵃᵐ|𝔇ĕ𝐬†𝓻⊙γ𒆜'
+global.dev = 'drixas-bot• Powered  ᑲᥡ ⁱᵃᵐ|𝔇ĕ𝐬†𝓻⊙γ𒆜'
 global.textbot = 'drixas-bot• Powered By ⁱᵃᵐ|𝔇ĕ𝐬†𝓻⊙γ𒆜'
 global.etiqueta = 'ⁱᵃᵐ|𝔇ĕ𝐬†𝓻⊙γ𒆜'
 
