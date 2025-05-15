@@ -16,7 +16,7 @@ global.botNumber = '' //Ejemplo: 573218138672
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.owner = [
-  ['525538611955', '🜲 Propietario 🜲', true],
+  ['5215538611955', '🜲 Propietario 🜲', true],
   
 ];
 
@@ -42,10 +42,10 @@ global.yukiJadibts = true
 global.packname = 'Drixas-bot'
 global.botname = 'Drixas-ᑲ᥆𝗍'
 global.wm = 'Drixas-bot'
-global.author = 'Made By ⁱᵃᵐ|𝔇ĕ𝐬†𝓻⊙γ𒆜'
+global.author = 'Drixas 980'
 global.dev = 'drixas-bot• Powered  ᑲᥡ ⁱᵃᵐdrx'
 global.textbot = 'drixas-bot• Powered By ⁱᵃᵐdrx'
-global.etiqueta = 'ⁱᵃᵐ|drx𒆜'
+global.etiqueta = 'ⁱᵃᵐ|Drixas𒆜'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
