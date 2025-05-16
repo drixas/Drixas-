@@ -1,0 +1,26 @@
+export default {
+  name: ['uptime', 'runtime'],
+  description: 'Ver tiempo activo o en línea del bot.',
+  async run(m, { conn, usedPrefix, command }) {
+    // Calcula el uptime (en milisegundos)
+    const uptimeMs = process.uptime() * 1000;
+    
+    // Función para convertir ms a formato hh:mm:ss
+    function msToTime(duration) {
+      let seconds = Math.floor((duration / 1000) % 60),
+          minutes = Math.floor((duration / (1000 * 60)) % 60),
+          hours = Math.floor((duration / (1000 * 60 * 60)) % 24),
+          days = Math.floor(duration / (1000 * 60 * 60 * 24));
+      return [
+        days ? `${days}d` : '',
+        hours ? `${hours}h` : '',
+        minutes ? `${minutes}m` : '',
+        `${seconds}s`
+      ].filter(Boolean).join(' ');
+    }
+
+    const uptime = msToTime(uptimeMs);
+    const texto = `✦ Tiempo activo del bot: ${uptime}`;
+    await conn.sendMessage(m.chat, { text: texto }, { quoted: m });
+  }
+}
