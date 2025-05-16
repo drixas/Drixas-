@@ -1,0 +1,18 @@
+export default {
+  name: 'menu',
+  description: 'Muestra el menú de comandos del bot',
+  async run(m, { conn, usedPrefix }) {
+    // Puedes agregar o personalizar los comandos que aparecen aquí
+    const menu = `
+╭━━━✦ 𝙈𝙀𝙉𝙐 ✦━━━╮
+┃  ${usedPrefix}menu - Ver este menú
+┃  ${usedPrefix}ping - Test de latencia
+┃  ${usedPrefix}hola - Saludo personalizado
+┃  ${usedPrefix}info - Información del bot
+┃  ${usedPrefix}owner - Contacto del dueño
+╰━━━━━━━━━━━━━━━╯
+`.trim();
+
+    await conn.sendMessage(m.chat, { text: menu }, { quoted: m });
+  }
+}
