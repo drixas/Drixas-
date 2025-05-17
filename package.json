@@ -18,7 +18,7 @@
 "eslint": "eslint .",
 "eslintfix": "eslint --fix ."
 },
-"homepage": "https://github.com/drixas/Drixas",
+"homepage": "https://github.com/drixas/Drixas-",
 "author": {
 "name": "Drixas"
 },
