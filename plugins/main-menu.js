@@ -7,19 +7,39 @@ let handler = async (m, { conn, args }) => {
     let totalreg = Object.keys(global.db.data.users).length
     let totalCommands = Object.values(global.plugins).filter((v) => v.help && v.tags).length
     
-    let txt = `
-Hola! Soy  *${botname}*  ٩(˘◡˘)۶
-Aquí tienes la lista de comandos
-╭┈ ↷
-│ᰔᩚ Cliente » @${userId.split('@')[0]}
-│❀ Modo » Publico
-│✦ Bot » ${(conn.user.jid == global.conn.user.jid ? 'Principal 🅥' : 'Prem Bot 🅑')}
-│ⴵ Activada » ${uptime}
-│✰ Usuarios » ${totalreg}
-│✧ Comandos » ${totalCommands}
-│🜸 Baileys » Multi Device
-╰─────────────────
-Crea un *Sub-Bot* con tu número utilizando *#qr* o *#code*
+    let txt = `H 
+let menu = `
+╔═──────────────═╗
+    𝑩𝒊𝒆𝒏𝒗𝒆𝒏𝒊𝒅𝒐𝒔 𝒂 
+     *${botname}* 🤖✨
+╚═──────────────═╝
+
+Hola, @${userId.split('@')[0]}! 👋🏻
+¡Disfruta de la experiencia y prueba los comandos exclusivos!
+
+╭─❖ 𝗘𝗦𝗧𝗔𝗗𝗢 𝗗𝗘𝗟 𝗕𝗢𝗧 ❖─╮
+│ 🟢 Estado » Online
+│ 🕰️ Uptime » ${uptime}
+│ 👑 Bot » ${(conn.user.jid == global.conn.user.jid ? 'Principal 🅥' : 'Premium 🅑')}
+│ 👤 Usuarios » ${totalreg}
+│ 💻 Plataforma » Baileys Multi Device
+│ 📝 Comandos » ${totalCommands}
+│ ⚙️ Modo » Público
+╰───────────────╯
+
+╭─★ 𝗜𝗡𝗙𝗢𝗥𝗠𝗔𝗖𝗜Ó𝗡 𝗣𝗘𝗥𝗦𝗢𝗡𝗔𝗟 ★─╮
+│ 🙍 Cliente » @${userId.split('@')[0]}
+╰────────────────────────────╯
+
+✨ 𝙋𝙪𝙚𝙙𝙚𝙨 𝙘𝙧𝙚𝙖𝙧 𝙩𝙪 𝙎𝙪𝙗-𝘽𝙤𝙩 ✨
+𝙐𝙩𝙞𝙡𝙞𝙯𝙖:
+• *#qr*  𝙤  *#code*
+
+──────────────────────────────
+🌟 𝙐𝙨𝙖 𝙡𝙤𝙨 𝙘𝙤𝙢𝙖𝙣𝙙𝙤𝙨 𝙙𝙚 𝙢𝙚𝙣𝙪 𝙥𝙖𝙧𝙖 𝙫𝙚𝙧 𝙩𝙤𝙙𝙖𝙨 𝙡𝙖𝙨 𝙤𝙥𝙘𝙞𝙤𝙣𝙚𝙨.
+──────────────────────────────
+`;
+await conn.sendMessage(m.chat, { text: menu, mentions: [m.sender] });
 
 • :･ﾟ⊹˚• \`『 Info-Bot 』\` •˚⊹:･ﾟ•
 
