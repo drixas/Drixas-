@@ -1,34 +1,43 @@
-/* 
-- tagall By Angel-OFC  
-- etiqueta en un grupo a todos
-- https://whatsapp.com/channel/0029VaJxgcB0bIdvuOwKTM2Y
-*/
-const handler = async (m, { isOwner, isAdmin, conn, text, participants, args, command, usedPrefix }) => {
-  if (usedPrefix == 'a' || usedPrefix == 'A') return;
-
-  const customEmoji = global.db.data.chats[m.chat]?.customEmoji || '🍫';
-  m.react(customEmoji);
-
-  if (!(isAdmin || isOwner)) {
-    global.dfail('admin', m, conn);
-    throw false;
-  }
-
-  const pesan = args.join` `;
-  const oi = `*» INFO :* ${pesan}`;
-  let teks = `*!  MENCION GENERAL  !*\n  *PARA ${participants.length} MIEMBROS* 🗣️\n\n ${oi}\n\n╭  ┄ 𝅄 ۪꒰ \`⡞᪲=͟͟͞${botname} ≼᳞ׄ\` ꒱ ۟ 𝅄 ┄\n`;
-  for (const mem of participants) {
-    teks += `┊${customEmoji} @${mem.id.split('@')[0]}\n`;
-  }
-  teks += `╰⸼ ┄ ┄ ┄ ─  ꒰  ׅ୭ *${vs}* ୧ ׅ ꒱  ┄  ─ ┄ ⸼`;
-
-  conn.sendMessage(m.chat, { text: teks, mentions: participants.map((a) => a.id) });
+// Diccionario de códigos de país a bandera
+const countryFlags = {
+  '58': '🇻🇪', // Venezuela
+  '52': '🇲🇽', // México
+  '54': '🇦🇷', // Argentina
+  '51': '🇵🇪', // Perú
+  '55': '🇧🇷', // Brasil
+  '57': '🇨🇴', // Colombia
+  '591': '🇧🇴', // Bolivia
+  '56': '🇨🇱', // Chile
+  '593': '🇪🇨', // Ecuador
+  '595': '🇵🇾', // Paraguay
+  '507': '🇵🇦', // Panamá
+  // Agrega más si lo necesitas
 };
 
-handler.help = ['todos *<mensaje opcional>*'];
-handler.tags = ['group'];
-handler.command = ['todos', 'invocar', 'tagall']
-handler.admin = true;
-handler.group = true;
+// Función para obtener bandera según número
+function getFlagByNumber(number) {
+  for (let len = 3; len >= 1; len--) {
+    const code = number.slice(0, len);
+    if (countryFlags[code]) return countryFlags[code];
+  }
+  return '🏳️'; // Bandera genérica si no encuentra
+}
 
-export default handler;
+// Handler para #todos y #invocar
+async function todosHandler(m, { groupMetadata, conn }) {
+  if (!groupMetadata) return;
+  let mensaje = '';
+  let mentions = [];
+  for (let participant of groupMetadata.participants) {
+    let num = participant.id.split('@')[0]; // ej: 521234567890
+    let flag = getFlagByNumber(num);
+    mensaje += `${flag} @${num}\n`;
+    mentions.push(participant.id);
+  }
+  await conn.sendMessage(m.chat, { text: mensaje.trim(), mentions });
+}
+
+// Ejemplo de cómo integrarlo
+if (m.text === '#todos' || m.text === '#invocar') {
+  await todosHandler(m, { groupMetadata, conn });
+}
