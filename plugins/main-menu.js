@@ -503,91 +503,110 @@ Crea un *Sub-Bot* con tu número utilizando *#qr* o *#code*
 ᰔᩚ *#formarpareja*
 > ✦ Forma una pareja. 
 ᰔᩚ *#formarpareja5*
-> ✦ Forma 5 parejas diferentes.
-ᰔᩚ *#frase*
-> ✦ La bot te da una frase.
-ᰔᩚ *#huevo*
-> ✦ Agarrale el huevo a alguien.
-ᰔᩚ *#chupalo* + <mencion>
-> ✦ Hacer que un usuario te la chupe.
-ᰔᩚ *#aplauso* + <mencion>
-> ✦ Aplaudirle a alguien.
-ᰔᩚ *#marron* + <mencion>
-> ✦ Burlarte del color de piel de un usuario. 
-ᰔᩚ *#suicidar*
-> ✦ Suicidate. 
-ᰔᩚ *#iq • #iqtest* + <mencion>
-> ✦ Calcular el iq de alguna persona. 
-ᰔᩚ *#meme*
-> ✦ La bot te envía un meme aleatorio. 
-ᰔᩚ *#morse*
-> ✦ Convierte un texto a codigo morse. 
-ᰔᩚ *#nombreninja*
-> ✦ Busca un nombre ninja aleatorio. 
-ᰔᩚ *#paja • #pajeame* 
-> ✦ La bot te hace una paja.
-ᰔᩚ *#personalidad* + <mencion>
-> ✦ La bot busca tu personalidad. 
-ᰔᩚ *#piropo*
-> ✦ Lanza un piropo.
-ᰔᩚ *#pregunta*
-> ✦ Hazle una pregunta a la bot.
-ᰔᩚ *#ship • #pareja*
-> ✦ La bot te da la probabilidad de enamorarte de una persona. 
-ᰔᩚ *#sorteo*
-> ✦ Empieza un sorteo. 
-ᰔᩚ *#top*
-> ✦ Empieza un top de personas.
-ᰔᩚ *#formartrio* + <mencion>
-> ✦ Forma un trio.
-ᰔᩚ *#ahorcado*
-> ✦ Diviertete con la bot jugando el juego ahorcado.
-ᰔᩚ *#mates • #matematicas*
-> ✦ Responde las preguntas de matemáticas para ganar recompensas.
-ᰔᩚ *#ppt*
-> ✦ Juega piedra papel o tijeras con la bot.
-ᰔᩚ *#sopa • #buscarpalabra*
-> ✦ Juega el famoso juego de sopa de letras.
-ᰔᩚ *#pvp • #suit* + <mencion>
-> ✦ Juega un pvp contra otro usuario.
-ᰔᩚ *#ttt*
-> ✦ Crea una sala de juego. 
-  `.trim()
+> ✦ Forma 5 par// plugins/drixasmenu.js
+export function command_drixasmenu() {
+  return {
+    handler: async (m, { conn, usedPrefix, command }) => {
+      if (/^(menu|menú|help|ayuda|commands|comandos|\?)$/i.test(m.text)) {
+        // Obtener información del sistema
+        const uptime = process.uptime();
+        const hours = Math.floor(uptime / 3600);
+        const minutes = Math.floor((uptime % 3600) / 60);
+        const seconds = Math.floor(uptime % 60);
+        const uptimeString = `${hours}h ${minutes}m ${seconds}s`;
 
-  await conn.sendMessage(m.chat, { 
-      text: txt,
-      contextInfo: {
-          mentionedJid: [m.sender, userId],
-          isForwarded: true,
-          forwardedNewsletterMessageInfo: {
-              newsletterJid: channelRD.id,
-              newsletterName: channelRD.name,
-              serverMessageId: -1,
-          },
-          forwardingScore: 999,
-          externalAdReply: {
-              title: botname,
-              body: textbot,
-              thumbnailUrl: banner,
-              sourceUrl: redes,
-              mediaType: 1,
-              showAdAttribution: true,
-              renderLargerThumbnail: true,
-          },
-      },
-  }, { quoted: m })
+        // Encabezado personalizado Drixas
+        const header = `╭─「 *🄳🅁🄸🅇🄰🅂-🄱🄾🅃* 」─⬣
+│ ⏤͟͟͞͞➽ *👋 Hola:* ${m.pushName || 'Usuario'}
+│ ⏤͟͟͞͞➽ *📅 Fecha:* ${new Date().toLocaleDateString('es-MX', { 
+          weekday: 'long', 
+          year: 'numeric', 
+          month: 'long', 
+          day: 'numeric' 
+        })}
+│ ⏤͟͟͞͞➽ *⏱ Tiempo activo:* ${uptimeString}
+╰────────────⬣`;
 
-}
+        // Menú principal con categorías
+        const menuBody = `
+╭─「 *🔮 MENÚ PRINCIPAL* 」─⬣
+│
+│ *📌 COMANDOS BÁSICOS*
+│ • ${usedPrefix}ping - Prueba de latencia
+│ • ${usedPrefix}owner - Contacto del creador
+│ • ${usedPrefix}grupos - Grupos oficiales
+│ • ${usedPrefix}estado - Estado del bot
+│ • ${usedPrefix}reporte - Reportar errores
+│
+│ *🛠 HERRAMIENTAS*
+│ • ${usedPrefix}traducir [texto] - Traductor
+│ • ${usedPrefix}calc [operación] - Calculadora
+│ • ${usedPrefix}clima [ciudad] - Pronóstico
+│ • ${usedPrefix}horoscopo [signo] - Horóscopo
+│ • ${usedPrefix}qr [texto] - Generar QR
+│
+│ *🎨 MULTIMEDIA*
+│ • ${usedPrefix}play [canción] - Descargar audio
+│ • ${usedPrefix}play2 [video] - Descargar video
+│ • ${usedPrefix}imagen [búsqueda] - Buscar imágenes
+│ • ${usedPrefix}sticker - Crear sticker
+│ • ${usedPrefix}toimg - Sticker a imagen
+│
+│ *🎭 DIVERSIÓN*
+│ • ${usedPrefix}simi [texto] - Chat con Simi
+│ • ${usedPrefix}dado - Tirar un dado
+│ • ${usedPrefix}topgays - Top de usuarios
+│ • ${usedPrefix}formar [texto] - Texto especial
+│ • ${usedPrefix}pregunta [texto] - Pregunta al bot
+│
+│ *🔞 CONTENIDO +18*
+│ • ${usedPrefix}pack - Buscar packs
+│ • ${usedPrefix}xxx - Videos +18
+│ • ${usedPrefix}lesbi - Lesbianas
+│ • ${usedPrefix}porno - Porno gay
+│
+│ *⚙️ ADMINISTRACIÓN* (solo admins)
+│ • ${usedPrefix}matarmenu - Desactivar menú
+│ • ${usedPrefix}revivirmenu - Reactivar menú
+│ • ${usedPrefix}ban - Banear usuario
+│ • ${usedPrefix}unban - Desbanear usuario
+│ • ${usedPrefix}admins - Lista de admins
+╰────────────⬣`;
 
-handler.help = ['menu']
-handler.tags = ['main']
-handler.command = ['menu', 'menú', 'help']
+        // Pie de página con créditos
+        const footer = `╭─「 *💻 CRÉDITOS* 」─⬣
+│ ⏤͟͟͞͞➽ *Creador:* The-King-Brayan
+│ ⏤͟͟͞͞➽ *Versión:* 3.5.0
+│ ⏤͟͟͞͞➽ *Tipo:* ${conn.user?.device || 'Multi-dispositivo'}
+│ ⏤͟͟͞͞➽ *Prefijo:* [ ${usedPrefix} ]
+╰────────────⬣`;
 
-export default handler
-
-function clockString(ms) {
-    let seconds = Math.floor((ms / 1000) % 60)
-    let minutes = Math.floor((ms / (1000 * 60)) % 60)
-    let hours = Math.floor((ms / (1000 * 60 * 60)) % 24)
-    return `${hours}h ${minutes}m ${seconds}s`
-}
+        // Imagen de fondo (reemplaza con tu URL)
+        const thumbnailUrl = 'https://telegra.ph/file/1234567890abcdef12345.jpg';
+        
+        try {
+          await conn.sendMessage(m.chat, {
+            image: { url: thumbnailUrl },
+            caption: `${header}\n${menuBody}\n${footer}`,
+            contextInfo: {
+              externalAdReply: {
+                title: "DRIXAS-BOT • MENÚ PRINCIPAL",
+                body: "El bot más completo de WhatsApp",
+                thumbnail: await (await fetch(thumbnailUrl)).buffer(),
+                mediaType: 1,
+                mediaUrl: '',
+                sourceUrl: 'https://github.com/tudrixas/drixas-bot'
+              }
+            }
+          }, { quoted: m });
+        } catch (e) {
+          console.error('Error al enviar el menú:', e);
+          await conn.reply(m.chat, '❌ Ocurrió un error al mostrar el menú. Intenta nuevamente.', m);
+        }
+      }
+    },
+    tags: ['main', 'utility'],
+    help: ['menu', 'menú', 'help', 'ayuda', 'comandos'],
+    desc: 'Muestra el menú principal completo de Drixas-Bot'
+  };
+    }
