@@ -41,7 +41,7 @@ Hola *%name* soy *Barboza*
   header: '*╭╍╍╍╍❖【 *%category* 】',
   body: '┋💎›【 %cmd %islimit %isPremium',
   footer: '*╰╍╍╍╍❖•ೋ° °ೋ•❖╍╍╍╍╯*',
-  after: `© Bot-Barboza`,
+  after: `© Bot-Drixas`,
 }
 
 const more = String.fromCharCode(8206)
