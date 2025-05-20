@@ -6,7 +6,7 @@
 import { googleImage } from '@bochilteam/scraper';
 import baileys from '@whiskeysockets/baileys';
 
-// Si necesitas delay, créala tú:
+// Función delay
 const delay = ms => new Promise(res => setTimeout(res, ms));
 
 // Ajusta estos valores a lo que usas normalmente en tu bot:
@@ -15,15 +15,20 @@ const packname = 'Drixas-Bot';
 const dev = 'By Drixas';
 const redes = 'https://github.com/drixas/Drixas-';
 
+// Función para enviar álbum de imágenes
 async function sendAlbumMessage(conn, jid, medias, options = {}) {
     if (typeof jid !== "string") throw new TypeError(`jid must be string, received: ${jid}`);
     if (medias.length < 2) throw new RangeError("Se necesitan al menos 2 imágenes para un álbum");
 
     const caption = options.text || options.caption || "";
     const delayTime = !isNaN(options.delay) ? options.delay : 500;
+    const quoted = options.quoted; // para quoted message
+
+    // Eliminar propiedades para no pasarlas accidentalmente
     delete options.text;
     delete options.caption;
     delete options.delay;
+    delete options.quoted;
 
     const album = baileys.generateWAMessageFromContent(
         jid,
@@ -35,13 +40,17 @@ async function sendAlbumMessage(conn, jid, medias, options = {}) {
 
     for (let i = 0; i < medias.length; i++) {
         const { type, data } = medias[i];
+        const msgOptions = { upload: conn.waUploadToServer };
+        if (i === 0 && caption) msgOptions.caption = caption;
+        if (quoted) msgOptions.quoted = quoted;
+
         const img = await baileys.generateWAMessage(
             album.key.remoteJid,
             { [type]: data, ...(i === 0 ? { caption } : {}) },
-            { upload: conn.waUploadToServer }
+            msgOptions
         );
         img.message.messageContextInfo = {
-            messageAssociation: { associationType: 1, parentMessageKey: album.key },
+            messageAssociation: { associationType: 1, parentMessageKey: album.key }
         };
         await conn.relayMessage(img.key.remoteJid, img.message, { messageId: img.key.id });
         await delay(delayTime);
@@ -49,28 +58,34 @@ async function sendAlbumMessage(conn, jid, medias, options = {}) {
     return album;
 }
 
-const handler = async (m, { conn, text, usedPrefix, command }) => {
-    if (!text) return conn.reply(m.chat, `*❀ Por favor, ingrese un texto para buscar una Imagen.`, m);
+// Handler principal
+const handler = async (m, { conn, text }) => {
+    if (!text) return conn.reply(m.chat, '*❀ Por favor, ingrese un texto para buscar una Imagen.*', m);
 
     await m.react('🕒');
-    conn.reply(m.chat, '✧ *Descargando su imagen...*', m, {
-        contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, showAdAttribution: true,
-        title: packname,
-        body: dev,
-        previewType: 0, thumbnail: icono,
-        sourceUrl: redes }}}
-    );
+    await conn.reply(m.chat, '✧ *Descargando su imagen...*', m, {
+        contextInfo: { externalAdReply: {
+            mediaUrl: null,
+            mediaType: 1,
+            showAdAttribution: true,
+            title: packname,
+            body: dev,
+            previewType: 0,
+            thumbnail: icono,
+            sourceUrl: redes
+        }}
+    });
 
     try {
         const res = await googleImage(text);
         const images = [];
-
         for (let i = 0; i < 10; i++) {
             const image = await res.getRandom();
             if (image) images.push({ type: "image", data: { url: image } });
         }
 
-        if (images.length < 2) return conn.reply(m.chat, '✧ No se encontraron suficientes imágenes para un álbum.', m);
+        if (images.length < 2)
+            return conn.reply(m.chat, '✧ No se encontraron suficientes imágenes para un álbum.', m);
 
         const caption = `❀ *Resultados de búsqueda para:* ${text}`;
         await sendAlbumMessage(conn, m.chat, images, { caption, quoted: m });
