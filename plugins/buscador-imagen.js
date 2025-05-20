@@ -6,12 +6,21 @@
 import { googleImage } from '@bochilteam/scraper';
 import baileys from '@whiskeysockets/baileys';
 
-async function sendAlbumMessage(jid, medias, options = {}) {
+// Si necesitas delay, créala tú:
+const delay = ms => new Promise(res => setTimeout(res, ms));
+
+// Ajusta estos valores a lo que usas normalmente en tu bot:
+const icono = 'https://i.imgur.com/1Q9Z1Zm.jpg';
+const packname = 'Drixas-Bot';
+const dev = 'By Drixas';
+const redes = 'https://github.com/drixas/Drixas-';
+
+async function sendAlbumMessage(conn, jid, medias, options = {}) {
     if (typeof jid !== "string") throw new TypeError(`jid must be string, received: ${jid}`);
     if (medias.length < 2) throw new RangeError("Se necesitan al menos 2 imágenes para un álbum");
 
     const caption = options.text || options.caption || "";
-    const delay = !isNaN(options.delay) ? options.delay : 500;
+    const delayTime = !isNaN(options.delay) ? options.delay : 500;
     delete options.text;
     delete options.caption;
     delete options.delay;
@@ -35,7 +44,7 @@ async function sendAlbumMessage(jid, medias, options = {}) {
             messageAssociation: { associationType: 1, parentMessageKey: album.key },
         };
         await conn.relayMessage(img.key.remoteJid, img.message, { messageId: img.key.id });
-        await baileys.delay(delay);
+        await delay(delayTime);
     }
     return album;
 }
@@ -45,11 +54,12 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
 
     await m.react('🕒');
     conn.reply(m.chat, '✧ *Descargando su imagen...*', m, {
-contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, showAdAttribution: true,
-title: packname,
-body: dev,
-previewType: 0, thumbnail: icono,
-sourceUrl: redes }}})
+        contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, showAdAttribution: true,
+        title: packname,
+        body: dev,
+        previewType: 0, thumbnail: icono,
+        sourceUrl: redes }}}
+    );
 
     try {
         const res = await googleImage(text);
@@ -63,7 +73,7 @@ sourceUrl: redes }}})
         if (images.length < 2) return conn.reply(m.chat, '✧ No se encontraron suficientes imágenes para un álbum.', m);
 
         const caption = `❀ *Resultados de búsqueda para:* ${text}`;
-        await sendAlbumMessage(m.chat, images, { caption, quoted: m });
+        await sendAlbumMessage(conn, m.chat, images, { caption, quoted: m });
 
         await m.react('✅');
     } catch (error) {
