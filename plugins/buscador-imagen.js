@@ -4,7 +4,7 @@
 */
 
 import { googleImage } from '@bochilteam/scraper';
-import baileys from '@whiskeysockets/baileys';
+import * as baileys from '@whiskeysockets/baileys';
 
 // Función delay
 const delay = ms => new Promise(res => setTimeout(res, ms));
