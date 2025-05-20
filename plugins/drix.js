@@ -2,19 +2,26 @@
 
 const activeDrix = {};
 
-const handler = async (m, { conn, text, command }) => {
-  // Activar modo conversación al usar 'drix'
+const handler = async (m, { conn, participants, command, text }) => {
+  // Validar uso solo en grupos
+  if (!m.isGroup) return m.reply('❌ Este comando solo se puede usar en grupos.');
+
+  // Lista de administradores del grupo
+  const admins = participants.filter(u => u.admin).map(u => u.id);
+  if (!admins.includes(m.sender)) return m.reply('❌ Solo los administradores pueden usar este comando.');
+
+  // Activar modo conversación
   if ((command === 'drix') && !text) {
-    activeDrix[m.sender] = true;
+    activeDrix[m.chat + '-' + m.sender] = true;
     return m.reply('👋Hola Humano soy Drixas-Bot ¿en qué puedo ayudarte inútil?\n\n(Escribe "salir" para terminar la conversación)');
   }
 
-  // Si el usuario está en modo conversación
-  if (activeDrix[m.sender]) {
+  // Si ese admin activó la conversación en ese grupo
+  if (activeDrix[m.chat + '-' + m.sender]) {
     // Salir del modo conversación
     if (/^(salir|adios|chao)$/i.test(text)) {
-      delete activeDrix[m.sender];
-      return m.reply('👋 Adiós humano, vuelve cuando quieras molestar.');
+      delete activeDrix[m.chat + '-' + m.sender];
+      return m.reply('👋 Adiós humano admin, vuelve cuando quieras molestar.');
     }
 
     // Preguntas frecuentes y funciones
@@ -47,7 +54,7 @@ const handler = async (m, { conn, text, command }) => {
 handler.help = ['drix'];
 handler.tags = ['info'];
 handler.command = /^drix$/i;
-handler.group = true;    // También funciona en grupos
-handler.private = true;  // También funciona en privado
+handler.group = true;   // Solo en grupos
+handler.admin = true;   // Solo para admins
 
 export default handler;
