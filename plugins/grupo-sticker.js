@@ -1,46 +1,50 @@
-rconst { Sticker, createSticker, StickerTypes } = require('wa-sticker-formatter');
-const fs = require('fs');
-const path = require('path');
+/*
+• @drixas
+- https://github.com/drixas/Drixas-
+*/
 
-module.exports = {
-    name: 'sticker',
-    description: 'Convierte imágenes en stickers',
-    author: 'TuNombre',
-    async execute(message, client, args) {
-        try {
-            // Verificar si hay una imagen adjunta
-            if (!message.hasMedia) {
-                await client.sendReply(message.from, 'Por favor, envía una imagen para convertir en sticker.', message.id);
-                return;
-            }
+import { Sticker, StickerTypes } from 'wa-sticker-formatter';
 
-            // Descargar la imagen
-            const media = await message.downloadMedia();
-            
-            if (!media.mimetype.includes('image')) {
-                await client.sendReply(message.from, 'Solo puedes convertir imágenes en stickers.', message.id);
-                return;
-            }
+const handler = async (m, { conn, usedPrefix, command }) => {
+    // Verifica si el mensaje tiene una imagen o si es una respuesta a una imagen
+    let q = m.quoted ? m.quoted : m;
+    let mime = (q.msg || q).mimetype || '';
 
-            // Crear el sticker
-            const sticker = new Sticker(media.data, {
-                pack: 'StickerPack', // Nombre del paquete de stickers
-                author: 'WhatsApp Bot', // Autor del sticker
-                type: StickerTypes.FULL, // Tipo de sticker
-                categories: ['🤩', '🎉'], // Categorías
-                id: '12345', // ID
-                quality: 50, // Calidad
-                background: 'transparent' // Fondo transparente
-            });
+    if (!/image/.test(mime)) {
+        await conn.reply(m.chat, 'Por favor, responde a una imagen o envía una imagen para convertir en sticker.', m);
+        return;
+    }
 
-            // Enviar el sticker
-            await client.sendMessage(message.from, await sticker.toMessage(), {
-                quoted: message.id
-            });
-
-        } catch (error) {
-            console.error('Error al crear el sticker:', error);
-            await client.sendReply(message.from, 'Ocurrió un error al crear el sticker.', message.id);
+    try {
+        // Descarga el buffer de la imagen
+        let img = await q.download();
+        if (!img) {
+            await conn.reply(m.chat, 'No se pudo descargar la imagen.', m);
+            return;
         }
+
+        // Crea el sticker
+        const sticker = new Sticker(img, {
+            pack: 'StickerPack', // Nombre del paquete
+            author: 'DrixasBot', // Autor
+            type: StickerTypes.FULL,
+            categories: ['🤩', '🎉'],
+            id: 'drixas-sticker',
+            quality: 50,
+            background: 'transparent'
+        });
+
+        // Envía el sticker
+        await conn.sendMessage(m.chat, await sticker.toMessage(), { quoted: m });
+
+    } catch (error) {
+        console.error('Error al crear el sticker:', error);
+        await conn.reply(m.chat, 'Ocurrió un error al crear el sticker.', m);
     }
 };
+
+handler.help = ['sticker'];
+handler.tags = ['sticker'];
+handler.command = ['sticker', 's'];
+
+export default handler;
