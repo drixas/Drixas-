@@ -21,48 +21,51 @@ Aquí tienes la lista de comandos
 ╰─────────────────
 Crea un *Sub-Bot* con tu número utilizando *#qr* o *#code*
 
-• :･ﾟ⊹˚• \`『 Info-Bot 』\` •˚⊹:･ﾟ•
+const menuInfoBot = 
+`╭━〔 𝘽𝙊𝙏 𝙄𝙉𝙁𝙊 𝙈𝙀𝙉𝙐 〕━╮
+┃ 𝘾𝙤𝙢𝙖𝙣𝙙𝙤𝙨 𝙥𝙖𝙧𝙖 𝙚𝙨𝙩𝙖𝙙𝙤 𝙚 𝙞𝙣𝙛𝙤𝙧𝙢𝙖𝙘𝙞ó𝙣:
+┃
+┣ ✦ 𝙃𝙚𝙡𝙥 / 𝙈𝙚𝙣𝙪: *#help*, *#menu*
+┃   𝙇𝙞𝙨𝙩𝙖 𝙙𝙚 𝙘𝙤𝙢𝙖𝙣𝙙𝙤𝙨.
+┣ ✦ 𝙐𝙥𝙩𝙞𝙢𝙚 / 𝙍𝙪𝙣𝙩𝙞𝙢𝙚: *#uptime*, *#runtime*
+┃   𝙏𝙞𝙚𝙢𝙥𝙤 𝙖𝙘𝙩𝙞𝙫𝙤 𝙙𝙚𝙡 𝘽𝙤𝙩.
+┣ ✦ 𝙎𝙘 / 𝙎𝙘𝙧𝙞𝙥𝙩: *#sc*, *#script*
+┃   𝙍𝙚𝙥𝙤𝙨𝙞𝙩𝙤𝙧𝙞𝙤 𝙤𝙛𝙞𝙘𝙞𝙖𝙡.
+┣ ✦ 𝙎𝙩𝙖𝙛𝙛 / 𝘾𝙤𝙡𝙖𝙗𝙤𝙧𝙖𝙙𝙤𝙧𝙚𝙨: *#staff*, *#colaboradores*
+┃   𝘿𝙚𝙨𝙖𝙧𝙧𝙤𝙡𝙡𝙖𝙙𝙤𝙧𝙚𝙨 𝙙𝙚𝙡 𝘽𝙤𝙩.
+┣ ✦ 𝙎𝙚𝙧𝙗𝙤𝙩: *#serbot*, *#serbot code*
+┃   𝘾𝙧𝙚𝙖 𝙪𝙣𝙖 𝙨𝙚𝙨𝙞ó𝙣 𝙙𝙚 𝙎𝙪𝙗-𝘽𝙤𝙩.
+┣ ✦ 𝘽𝙤𝙩𝙨 / 𝙎𝙤𝙘𝙠𝙚𝙩𝙨: *#bots*, *#sockets*
+┃   𝙑𝙚𝙧 𝙎𝙪𝙗-𝘽𝙤𝙩𝙨 𝙖𝙘𝙩𝙞𝙫𝙤𝙨.
+┣ ✦ 𝘾𝙧𝙚𝙖𝙙𝙤𝙧: *#creador*
+┃   𝘾𝙤𝙣𝙩𝙖𝙘𝙩𝙤 𝙙𝙚𝙡 𝙘𝙧𝙚𝙖𝙙𝙤𝙧.
+┣ ✦ 𝙀𝙨𝙩𝙖𝙙𝙤: *#status*, *#estado*
+┃   𝙑𝙚𝙧 𝙚𝙨𝙩𝙖𝙙𝙤 𝙖𝙘𝙩𝙪𝙖𝙡 𝙙𝙚𝙡 𝘽𝙤𝙩.
+┣ ✦ 𝙇𝙞𝙣𝙠𝙨 / 𝙂𝙧𝙪𝙥𝙤𝙨: *#links*, *#grupos*
+┃   𝙀𝙣𝙡𝙖𝙘𝙚𝙨 𝙤𝙛𝙞𝙘𝙞𝙖𝙡𝙚𝙨.
+┣ ✦ 𝙄𝙣𝙛𝙤𝘽𝙤𝙩: *#infobot*
+┃   𝙄𝙣𝙛𝙤𝙧𝙢𝙖𝙘𝙞ó𝙣 𝙘𝙤𝙢𝙥𝙡𝙚𝙩𝙖.
+┣ ✦ 𝙎𝙪𝙜 / 𝙉𝙚𝙬𝘾𝙤𝙢𝙢𝙖𝙣𝙙: *#sug*, *#newcommand*
+┃   𝙎𝙪𝙜𝙚𝙧𝙚 𝙪𝙣 𝙣𝙪𝙚𝙫𝙤 𝙘𝙤𝙢𝙖𝙣𝙙𝙤.
+┣ ✦ 𝙋 / 𝙋𝙞𝙣𝙜: *#p*, *#ping*
+┃   𝙑𝙚𝙡𝙤𝙘𝙞𝙙𝙖𝙙 𝙙𝙚 𝙧𝙚𝙨𝙥𝙪𝙚𝙨𝙩𝙖.
+┣ ✦ 𝙍𝙚𝙥𝙤𝙧𝙩𝙚 / 𝙍𝙚𝙥𝙤𝙧𝙩𝙖𝙧: *#reporte*, *#reportar*
+┃   𝙍𝙚𝙥𝙤𝙧𝙩𝙖 𝙛𝙖𝙡𝙡𝙖𝙨 𝙤 𝙥𝙧𝙤𝙗𝙡𝙚𝙢𝙖𝙨.
+┣ ✦ 𝙎𝙞𝙨𝙩𝙚𝙢𝙖 / 𝙎𝙮𝙨𝙩𝙚𝙢: *#sistema*, *#system*
+┃   𝙀𝙨𝙩𝙖𝙙𝙤 𝙙𝙚 𝙖𝙡𝙤𝙟𝙖𝙢𝙞𝙚𝙣𝙩𝙤.
+┣ ✦ 𝙎𝙥𝙚𝙚𝙙 / 𝙎𝙥𝙚𝙚𝙙𝙩𝙚𝙨𝙩: *#speed*, *#speedtest*
+┃   𝙀𝙨𝙩𝙖𝙙í𝙨𝙩𝙞𝙘𝙖𝙨 𝙙𝙚 𝙫𝙚𝙡𝙤𝙘𝙞𝙙𝙖𝙙.
+┣ ✦ 𝙑𝙞𝙚𝙬𝙨 / 𝙐𝙨𝙪𝙖𝙧𝙞𝙤𝙨: *#views*, *#usuarios*
+┃   𝙐𝙨𝙪𝙖𝙧𝙞𝙤𝙨 𝙧𝙚𝙜𝙞𝙨𝙩𝙧𝙖𝙙𝙤𝙨.
+┣ ✦ 𝙁𝙪𝙣𝙘𝙞𝙤𝙣𝙚𝙨 / 𝙏𝙤𝙩𝙖𝙡𝙛𝙪𝙣𝙘𝙞𝙤𝙣𝙚𝙨: *#funciones*, *#totalfunciones*
+┃   𝙏𝙤𝙙𝙖𝙨 𝙡𝙖𝙨 𝙛𝙪𝙣𝙘𝙞𝙤𝙣𝙚𝙨 𝙙𝙚𝙡 𝘽𝙤𝙩.
+┣ ✦ 𝘿𝙎 / 𝙁𝙞𝙭𝙈𝙨𝙜𝙀𝙨𝙥𝙚𝙧𝙖: *#ds*, *#fixmsgespera*
+┃   𝙀𝙡𝙞𝙢𝙞𝙣𝙖𝙧 𝙖𝙧𝙘𝙝𝙞𝙫𝙤𝙨 𝙞𝙣𝙣𝙚𝙘𝙚𝙨𝙖𝙧𝙞𝙤𝙨.
+┣ ✦ 𝙀𝙙𝙞𝙩𝘼𝙪𝙩𝙤𝙍𝙚𝙨𝙥𝙤𝙣𝙙𝙚𝙧: *#editautoresponder*
+┃   𝘾𝙤𝙣𝙛𝙞𝙜𝙪𝙧𝙖𝙧 𝙋𝙧𝙤𝙢𝙥𝙩 𝙥𝙚𝙧𝙨𝙤𝙣𝙖𝙡𝙞𝙯𝙖𝙙𝙤.
+╰━━━━━━━━━━━━━━━━━━━━━━╯`;
 
-❍ Comandos para ver estado e información de la Bot.
-ᰔᩚ *#help • #menu*
-> ✦ Ver la lista de comandos de la Bot.
-ᰔᩚ *#uptime • #runtime*
-> ✦ Ver tiempo activo o en linea de la Bot.
-ᰔᩚ *#sc • #script*
-> ✦ Link del repositorio oficial de la Bot
-ᰔᩚ *#staff • #colaboradores*
-> ✦ Ver la lista de desarrolladores de la Bot.
-ᰔᩚ *#serbot • #serbot code*
-> ✦ Crea una sesión de Sub-Bot.
-ᰔᩚ *#bots • #sockets*
-> ✦ Ver la lista de Sub-Bots activos.
-ᰔᩚ *#creador*
-> ✦ Contacto del creador de la Bot.
-ᰔᩚ *#status • #estado*
-> ✦ Ver el estado actual de la Bot.
-ᰔᩚ *#links • #grupos*
-> ✦ Ver los enlaces oficiales de la Bot.
-ᰔᩚ *#infobot • #infobot*
-> ✦ Ver la información completa de la Bot.
-ᰔᩚ *#sug • #newcommand*
-> ✦ Sugiere un nuevo comando.
-ᰔᩚ *#p • #ping*
-> ✦ Ver la velocidad de respuesta del Bot.
-ᰔᩚ *#reporte • #reportar*
-> ✦ Reporta alguna falla o problema de la Bot.
-ᰔᩚ *#sistema • #system*
-> ✦ Ver estado del sistema de alojamiento.
-ᰔᩚ *#speed • #speedtest*
-> ✦ Ver las estadísticas de velocidad de la Bot.
-ᰔᩚ *#views • #usuarios*
-> ✦ Ver la cantidad de usuarios registrados en el sistema.
-ᰔᩚ *#funciones • #totalfunciones*
-> ✦ Ver todas las funciones de la Bot.
-ᰔᩚ *#ds • #fixmsgespera*
-> ✦ Eliminar archivos de sesión innecesarios.
-ᰔᩚ *#editautoresponder*
-> ✦ Configurar un Prompt personalizado de la Bot.
-
+export default menuInfoBot;
 • :･ﾟ⊹˚• \`『 Buscadores 』\` •˚⊹:･ﾟ•
 
 ❍ Comandos para realizar búsquedas en distintas plataformas.
