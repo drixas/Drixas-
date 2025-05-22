@@ -26,7 +26,7 @@ if (!text) { return conn.reply(m.chat, `${emoji} Ingrese una petición para que 
 await m.react(rwait)
 try {
 const { key } = await conn.sendMessage(m.chat, {text: `$
-{emoji2} ChatGPT está procesando tu petición, espera unos segundos.`}, {quoted: m}
+{emoji2} ChatGPT está procesando tu petición, espera unos segundos.`}, {quoted: m}) 
 const query = text
 const prompt = `${basePrompt}. Responde lo siguiente: ${query}`
 const response = await luminsesi(query, username, prompt)
