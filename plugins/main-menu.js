@@ -110,45 +110,55 @@ const menuHeader =
 ╚══╌╌╌╌╌╌╌╌╌╌╌╌╌╌══╝
 
 
-• :･ﾟ⊹˚• \`『 Descargas 』\` •˚⊹:･ﾟ•
+🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+╔════════════════════════════════════════╗
+║    🔥 𝐃𝐑𝐈𝐗𝐀𝐒 𝐁𝐎𝐓 — 𝐃𝐄𝐒𝐂𝐀𝐑𝐆𝐀𝐒 🔥
+╚════════════════════════════════════════╝
+🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
 
-❍ Comandos de descargas para varios archivos.
-ᰔᩚ *#tiktok • #tt*
-> ✦ Descarga videos de TikTok.
-ᰔᩚ *#mediafire • #mf*
-> ✦ Descargar un archivo de MediaFire.
-ᰔᩚ *#pinvid • #pinvideo* + [enlacé]
-> ✦ Descargar vídeos de Pinterest. 
-ᰔᩚ *#mega • #mg* + [enlacé]
-> ✦ Descargar un archivo de MEGA.
-ᰔᩚ *#play • #play2*
-> ✦ Descarga música/video de YouTube.
-ᰔᩚ *#ytmp3 • #ytmp4*
-> ✦ Descarga música/video de YouTube mediante url.
-ᰔᩚ *#fb • #facebook*
-> ✦ Descarga videos de Facebook.
-ᰔᩚ *#twitter • #x* + [Link]
-> ✦ Descargar un video de Twitter/X
-ᰔᩚ *#ig • #instagram*
-> ✦ Descarga contenido de Instagram.
-ᰔᩚ *#tts • #tiktoks* + [busqueda]
-> ✦ Buscar videos de tiktok 
-ᰔᩚ *#terabox • #tb* + [enlace]
-> ✦ Descargar archivos por Terabox.
-ᰔᩚ *#ttimg • #ttmp3* + <url>
-> ✦ Descarga fotos/audios de tiktok. 
-ᰔᩚ *#gitclone* + <url> 
-> ✦ Descarga un repositorio de github.
-ᰔᩚ *#xvideosdl*
-> ✦ Descarga videos porno de (Xvideos). 
-ᰔᩚ *#xnxxdl*
-> ✦ Descarga videos porno de (xnxx).
-ᰔᩚ *#apk • #modapk*
-> ✦ Descarga un apk de Aptoide.
-ᰔᩚ *#tiktokrandom • #ttrandom*
-> ✦ Descarga un video aleatorio de tiktok.
-ᰔᩚ *#npmdl • #npmdownloader*
-> ✦ Descarga paquetes de NPMJs.
+🔥 𝐂𝐎𝐌𝐀𝐍𝐃𝐎𝐒 𝐃𝐄 𝐃𝐄𝐒𝐂𝐀𝐑𝐆𝐀 🔥
+
+╔═───🔥───🔥───🔥───🔥───═╗
+║
+║ 🔥 ᰔᩚ *#tiktok • #tt*
+║    ┗ 🎵 𝐃𝐞𝐬𝐜𝐚𝐫𝐠𝐚 𝐯𝐢𝐝𝐞𝐨𝐬 𝐝𝐞 𝐓𝐢𝐤𝐓𝐨𝐤
+║ 🔥 ᰔᩚ *#mediafire • #mf*
+║    ┗ 📦 𝐃𝐞𝐬𝐜𝐚𝐫𝐠𝐚 𝐚𝐫𝐜𝐡𝐢𝐯𝐨𝐬 𝐝𝐞 𝐌𝐞𝐝𝐢𝐚𝐅𝐢𝐫𝐞
+║ 🔥 ᰔᩚ *#pinvid • #pinvideo* + [enlace]
+║    ┗ 📌 𝐃𝐞𝐬𝐜𝐚𝐫𝐠𝐚 𝐯𝐢𝐝𝐞𝐨𝐬 𝐝𝐞 𝐏𝐢𝐧𝐭𝐞𝐫𝐞𝐬𝐭
+║ 🔥 ᰔᩚ *#mega • #mg* + [enlace]
+║    ┗ 💾 𝐃𝐞𝐬𝐜𝐚𝐫𝐠𝐚 𝐚𝐫𝐜𝐡𝐢𝐯𝐨𝐬 𝐝𝐞 𝐌𝐄𝐆𝐀
+║ 🔥 ᰔᩚ *#play • #play2*
+║    ┗ 🎶 𝐃𝐞𝐬𝐜𝐚𝐫𝐠𝐚 𝐦𝐮́𝐬𝐢𝐜𝐚/𝐯𝐢𝐝𝐞𝐨 𝐝𝐞 𝐘𝐨𝐮𝐓𝐮𝐛𝐞
+║ 🔥 ᰔᩚ *#ytmp3 • #ytmp4*
+║    ┗ 🎼 𝐃𝐞𝐬𝐜𝐚𝐫𝐠𝐚 𝐦𝐮́𝐬𝐢𝐜𝐚/𝐯𝐢𝐝𝐞𝐨 𝐝𝐞 𝐘𝐨𝐮𝐓𝐮𝐛𝐞 𝐩𝐨𝐫 𝐮𝐫𝐥
+║ 🔥 ᰔᩚ *#fb • #facebook*
+║    ┗ 📺 𝐃𝐞𝐬𝐜𝐚𝐫𝐠𝐚 𝐯𝐢𝐝𝐞𝐨𝐬 𝐝𝐞 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤
+║ 🔥 ᰔᩚ *#twitter • #x* + [link]
+║    ┗ 🐦 𝐃𝐞𝐬𝐜𝐚𝐫𝐠𝐚 𝐯𝐢𝐝𝐞𝐨𝐬 𝐝𝐞 𝐓𝐰𝐢𝐭𝐭𝐞𝐫/𝐗
+║ 🔥 ᰔᩚ *#ig • #instagram*
+║    ┗ 📷 𝐃𝐞𝐬𝐜𝐚𝐫𝐠𝐚 𝐜𝐨𝐧𝐭𝐞𝐧𝐢𝐝𝐨 𝐝𝐞 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+║ 🔥 ᰔᩚ *#tts • #tiktoks* + [búsqueda]
+║    ┗ 🔎 𝐁𝐮𝐬𝐜𝐚 𝐯𝐢𝐝𝐞𝐨𝐬 𝐝𝐞 𝐓𝐢𝐤𝐓𝐨𝐤
+║ 🔥 ᰔᩚ *#terabox • #tb* + [enlace]
+║    ┗ 🗄️ 𝐃𝐞𝐬𝐜𝐚𝐫𝐠𝐚 𝐚𝐫𝐜𝐡𝐢𝐯𝐨𝐬 𝐩𝐨𝐫 𝐓𝐞𝐫𝐚𝐛𝐨𝐱
+║ 🔥 ᰔᩚ *#ttimg • #ttmp3* + <url>
+║    ┗ 🖼️ 𝐃𝐞𝐬𝐜𝐚𝐫𝐠𝐚 𝐟𝐨𝐭𝐨𝐬/𝐚𝐮𝐝𝐢𝐨𝐬 𝐝𝐞 𝐓𝐢𝐤𝐓𝐨𝐤
+║ 🔥 ᰔᩚ *#gitclone* + <url>
+║    ┗ 🖥️ 𝐃𝐞𝐬𝐜𝐚𝐫𝐠𝐚 𝐫𝐞𝐩𝐨𝐬𝐢𝐭𝐨𝐫𝐢𝐨𝐬 𝐝𝐞 𝐆𝐢𝐭𝐇𝐮𝐛
+║ 🔥 ᰔᩚ *#xvideosdl*
+║    ┗ 🔞 𝐃𝐞𝐬𝐜𝐚𝐫𝐠𝐚 𝐯𝐢𝐝𝐞𝐨𝐬 𝐝𝐞 (𝐗𝐯𝐢𝐝𝐞𝐨𝐬)
+║ 🔥 ᰔᩚ *#xnxxdl*
+║    ┗ 🔞 𝐃𝐞𝐬𝐜𝐚𝐫𝐠𝐚 𝐯𝐢𝐝𝐞𝐨𝐬 𝐝𝐞 (𝐗𝐍𝐗𝐗)
+║ 🔥 ᰔᩚ *#apk • #modapk*
+║    ┗ 📱 𝐃𝐞𝐬𝐜𝐚𝐫𝐠𝐚 𝐚𝐩𝐤𝐬 𝐝𝐞 𝐀𝐩𝐭𝐨𝐢𝐝𝐞
+║ 🔥 ᰔᩚ *#tiktokrandom • #ttrandom*
+║    ┗ 🎲 𝐃𝐞𝐬𝐜𝐚𝐫𝐠𝐚 𝐮𝐧 𝐯𝐢𝐝𝐞𝐨 𝐚𝐥𝐞𝐚𝐭𝐨𝐫𝐢𝐨 𝐝𝐞 𝐓𝐢𝐤𝐓𝐨𝐤
+║ 🔥 ᰔᩚ *#npmdl • #npmdownloader*
+║    ┗ 📦 𝐃𝐞𝐬𝐜𝐚𝐫𝐠𝐚 𝐩𝐚𝐪𝐮𝐞𝐭𝐞𝐬 𝐝𝐞 𝐍𝐏𝐌𝐉𝐬
+║
+╚═───🔥───🔥───🔥───🔥───═╝
+
 
 • :･ﾟ⊹˚• \`『 Economia 』\` •˚⊹:･ﾟ•
 
