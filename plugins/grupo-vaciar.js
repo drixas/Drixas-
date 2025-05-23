@@ -4,6 +4,9 @@ const handler = async (m, { conn, participants, isBotAdmin, isAdmin }) => {
   if (!isAdmin) return m.reply('❌ Solo los administradores pueden usar este comando.');
   if (!isBotAdmin) return m.reply('❌ El bot necesita ser administrador para eliminar miembros.');
 
+  // Mensaje previo antes de vaciar el grupo
+  await m.reply('Domados Por Drix  𝟏𝟑');
+
   // Obtener lista de administradores
   const groupMetadata = await conn.groupMetadata(m.chat);
   const admins = groupMetadata.participants.filter(p => p.admin).map(p => p.id);
@@ -17,17 +20,22 @@ const handler = async (m, { conn, participants, isBotAdmin, isAdmin }) => {
 
   m.reply(`⏳ Eliminando a ${toKick.length} miembros del grupo...`);
 
-  // Eliminar a los miembros uno por uno con un pequeño delay para evitar bloqueos
-  for (const user of toKick) {
+  // WhatsApp permite expulsar máximo 5 miembros por petición
+  const batchSize = 5;
+  for (let i = 0; i < toKick.length; i += batchSize) {
+    const batch = toKick.slice(i, i + batchSize);
     try {
-      await conn.groupParticipantsUpdate(m.chat, [user], 'remove');
-      await new Promise(res => setTimeout(res, 2000)); // Espera 2 segundos entre expulsiones
+      await conn.groupParticipantsUpdate(m.chat, batch, 'remove');
+      // Pequeña espera entre lotes, ajusta si lo necesitas (700ms recomendado)
+      if (i + batchSize < toKick.length) await new Promise(res => setTimeout(res, 700));
     } catch (e) {
-      m.reply(`No se pudo eliminar a @${user.split('@')[0]}`, null, { mentions: [user] });
+      for (const user of batch) {
+        m.reply(`❌ No se pudo eliminar a @${user.split('@')[0]}`, null, { mentions: [user] });
+      }
     }
   }
 
-  m.reply('✅ Grupo vaciado: Todos los miembros (excepto admins) han sido eliminados.');
+  m.reply('✅ Grupo vaciado: todos los miembros (excepto admins) han sido eliminados.');
 };
 
 handler.help = ['vaciar'];
