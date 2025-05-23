@@ -261,27 +261,36 @@ const menuHeader =
 ╚═───🎲───🎴───🎲───🎴───═╝
 
 
-• :･ﾟ⊹˚• \`『 Stickers 』\` •˚⊹:･ﾟ•
+`⭐✨🟣🟢🟡🔸🔹⭐✨🟣🟢🟡🔸🔹
+╔════════════════════════════════════════╗
+║        ✨ 𝐌𝐄𝐍𝐔́ 𝐃𝐄 𝐒𝐓𝐈𝐂𝐊𝐄𝐑𝐒 ✨
+║             By: @drixas
+╚════════════════════════════════════════╝
 
-❍ Comandos para creaciones de stickers etc.
-ᰔᩚ *#sticker • #s*
-> ✦ Crea stickers de (imagen/video)
-ᰔᩚ *#setmeta*
-> ✦ Estable un pack y autor para los stickers.
-ᰔᩚ *#delmeta*
-> ✦ Elimina tu pack de stickers.
-ᰔᩚ *#pfp • #getpic*
-> ✦ Obtén la foto de perfil de un usuario.
-ᰔᩚ *#qc*
-> ✦ Crea stickers con texto o de un usuario.
-ᰔᩚ *#toimg • #img*
-> ✦ Convierte stickers en imagen.
-ᰔᩚ *#brat • #ttp • #attp*︎ 
-> ✦ Crea stickers con texto.
-ᰔᩚ *#emojimix*
-> ✦ Fuciona 2 emojis para crear un sticker.
-ᰔᩚ *#wm*
-> ✦ Cambia el nombre de los stickers.
+❍ 𝐂𝐨𝐦𝐚𝐧𝐝𝐨𝐬 𝐩𝐚𝐫𝐚 𝐜𝐫𝐞𝐚𝐫, 𝐞𝐝𝐢𝐭𝐚𝐫 𝐲 𝐠𝐞𝐬𝐭𝐢𝐨𝐧𝐚𝐫 𝐬𝐭𝐢𝐜𝐤𝐞𝐫𝐬.
+
+╔═───⭐───🟣───🟢───🔸───═╗
+║
+║ ✨ ᰔᩚ *#sticker • #s*
+║    ┗ 🖼️ 𝐂𝐫𝐞𝐚 𝐬𝐭𝐢𝐜𝐤𝐞𝐫𝐬 𝐝𝐞 𝐢𝐦𝐚𝐠𝐞𝐧 𝐨 𝐯𝐢𝐝𝐞𝐨
+║ 🟡 ᰔᩚ *#setmeta*
+║    ┗ 🏷️ 𝐄𝐬𝐭𝐚𝐛𝐥𝐞𝐜𝐞 𝐩𝐚𝐜𝐤 𝐲 𝐚𝐮𝐭𝐨𝐫 𝐝𝐞 𝐬𝐭𝐢𝐜𝐤𝐞𝐫𝐬
+║ 🟢 ᰔᩚ *#delmeta*
+║    ┗ 🗑️ 𝐄𝐥𝐢𝐦𝐢𝐧𝐚 𝐭𝐮 𝐩𝐚𝐜𝐤 𝐝𝐞 𝐬𝐭𝐢𝐜𝐤𝐞𝐫𝐬
+║ 🔸 ᰔᩚ *#pfp • #getpic*
+║    ┗ 👤 𝐎𝐛𝐭𝐞́𝐧 𝐥𝐚 𝐟𝐨𝐭𝐨 𝐝𝐞 𝐩𝐞𝐫𝐟𝐢𝐥 𝐝𝐞 𝐮𝐧 𝐮𝐬𝐮𝐚𝐫𝐢𝐨
+║ 🔹 ᰔᩚ *#qc*
+║    ┗ ✏️ 𝐂𝐫𝐞𝐚 𝐬𝐭𝐢𝐜𝐤𝐞𝐫𝐬 𝐜𝐨𝐧 𝐭𝐞𝐱𝐭𝐨 𝐨 𝐝𝐞 𝐮𝐬𝐮𝐚𝐫𝐢𝐨
+║ 🟣 ᰔᩚ *#toimg • #img*
+║    ┗ 🖼️ 𝐂𝐨𝐧𝐯𝐢𝐞𝐫𝐭𝐞 𝐬𝐭𝐢𝐜𝐤𝐞𝐫𝐬 𝐞𝐧 𝐢𝐦𝐚𝐠𝐞𝐧
+║ ⭐ ᰔᩚ *#brat • #ttp • #attp*
+║    ┗ 📝 𝐂𝐫𝐞𝐚 𝐬𝐭𝐢𝐜𝐤𝐞𝐫𝐬 𝐜𝐨𝐧 𝐭𝐞𝐱𝐭𝐨
+║ ✨ ᰔᩚ *#emojimix*
+║    ┗ 😀➕😎 𝐅𝐮𝐬𝐢𝐨𝐧𝐚 𝟐 𝐞𝐦𝐨𝐣𝐢𝐬 𝐞𝐧 𝐮𝐧 𝐬𝐭𝐢𝐜𝐤𝐞𝐫
+║ 🟡 ᰔᩚ *#wm*
+║    ┗ 🏷️ 𝐂𝐚𝐦𝐛𝐢𝐚 𝐞𝐥 𝐧𝐨𝐦𝐛𝐫𝐞 𝐝𝐞 𝐥𝐨𝐬 𝐬𝐭𝐢𝐜𝐤𝐞𝐫𝐬
+║
+╚═───⭐───🟣───🟢───🔸───═╝
 
 •:･ﾟ⊹˚• \`『 Herramientas 』\` •˚⊹:･ﾟ•
 
