@@ -292,35 +292,45 @@ const menuHeader =
 ║
 ╚═───⭐───🟣───🟢───🔸───═╝
 
-•:･ﾟ⊹˚• \`『 Herramientas 』\` •˚⊹:･ﾟ•
+const menuHerramientas = 
+🔧🛠️✨🔹🔸🟦🟨🔧🛠️✨🔹🔸🟦🟨
+╔════════════════════════════════════════╗
+║         🛠️ 𝐌𝐄𝐍𝐔́ 𝐃𝐄 𝐇𝐄𝐑𝐑𝐀𝐌𝐈𝐄𝐍𝐓𝐀𝐒 🛠️
+║                By: @drixas
+╚════════════════════════════════════════╝
 
-❍ Comandos de herramientas con muchas funciones.
-ᰔᩚ *#calcular • #calcular • #cal*
-> ✦ Calcular todo tipo de ecuaciones.
-ᰔᩚ *#tiempo • #clima*
-> ✦ Ver el clima de un pais.
-ᰔᩚ *#horario*
-> ✦ Ver el horario global de los países.
-ᰔᩚ *#fake • #fakereply*
-> ✦ Crea un mensaje falso de un usuario.
-ᰔᩚ *#enhance • #remini • #hd*
-> ✦ Mejora la calidad de una imagen.
-ᰔᩚ *#letra*
-> ✦ Cambia la fuente de las letras.
-ᰔᩚ *#read • #readviewonce • #ver*
-> ✦ Ver imágenes de una sola vista.
-ᰔᩚ *#whatmusic • #shazam*
-> ✦ Descubre el nombre de canciones o vídeos.
-ᰔᩚ *#ss • #ssweb*
-> ✦ Ver el estado de una página web.
-ᰔᩚ *#length • #tamaño*
-> ✦ Cambia el tamaño de imágenes y vídeos.
-ᰔᩚ *#say • #decir* + [texto]
-> ✦ Repetir un mensaje.
-ᰔᩚ *#todoc • #toducument*
-> ✦ Crea documentos de (audio, imágenes y vídeos).
-ᰔᩚ *#translate • #traducir • #trad*
-> ✦ Traduce palabras en otros idiomas.
+❍ 𝐂𝐨𝐦𝐚𝐧𝐝𝐨𝐬 𝐝𝐞 𝐡𝐞𝐫𝐫𝐚𝐦𝐢𝐞𝐧𝐭𝐚𝐬 𝐜𝐨𝐧 𝐦𝐮𝐜𝐡𝐚𝐬 𝐟𝐮𝐧𝐜𝐢𝐨𝐧𝐞𝐬.
+
+╔═───🔧───🛠️───✨───🔹───═╗
+║
+║ 🔧 ᰔᩚ *#calcular • #calcular • #cal*
+║    ┗ ➗ 𝐂𝐚𝐥𝐜𝐮𝐥𝐚 𝐭𝐨𝐝𝐨 𝐭𝐢𝐩𝐨 𝐝𝐞 𝐞𝐜𝐮𝐚𝐜𝐢𝐨𝐧𝐞𝐬
+║ 🛠️ ᰔᩚ *#tiempo • #clima*
+║    ┗ ☁️ 𝐕𝐞𝐫 𝐞𝐥 𝐜𝐥𝐢𝐦𝐚 𝐝𝐞 𝐮𝐧 𝐩𝐚𝐢́𝐬
+║ 🔹 ᰔᩚ *#horario*
+║    ┗ 🕗 𝐕𝐞𝐫 𝐞𝐥 𝐡𝐨𝐫𝐚𝐫𝐢𝐨 𝐠𝐥𝐨𝐛𝐚𝐥 𝐝𝐞 𝐥𝐨𝐬 𝐩𝐚𝐢́𝐬𝐞𝐬
+║ ✨ ᰔᩚ *#fake • #fakereply*
+║    ┗ 🗨️ 𝐂𝐫𝐞𝐚 𝐮𝐧 𝐦𝐞𝐧𝐬𝐚𝐣𝐞 𝐟𝐚𝐥𝐬𝐨 𝐝𝐞 𝐮𝐧 𝐮𝐬𝐮𝐚𝐫𝐢𝐨
+║ 🔸 ᰔᩚ *#enhance • #remini • #hd*
+║    ┗ 🖼️ 𝐌𝐞𝐣𝐨𝐫𝐚 𝐥𝐚 𝐜𝐚𝐥𝐢𝐝𝐚𝐝 𝐝𝐞 𝐮𝐧𝐚 𝐢𝐦𝐚𝐠𝐞𝐧
+║ 🟨 ᰔᩚ *#letra*
+║    ┗ 🔤 𝐂𝐚𝐦𝐛𝐢𝐚 𝐥𝐚 𝐟𝐮𝐞𝐧𝐭𝐞 𝐝𝐞 𝐥𝐚𝐬 𝐥𝐞𝐭𝐫𝐚𝐬
+║ 🟦 ᰔᩚ *#read • #readviewonce • #ver*
+║    ┗ 👁️ 𝐕𝐞𝐫 𝐢𝐦𝐚́𝐠𝐞𝐧𝐞𝐬 𝐝𝐞 𝐮𝐧𝐚 𝐬𝐨𝐥𝐚 𝐯𝐢𝐬𝐭𝐚
+║ 🔧 ᰔᩚ *#whatmusic • #shazam*
+║    ┗ 🎵 𝐃𝐞𝐬𝐜𝐮𝐛𝐫𝐞 𝐞𝐥 𝐧𝐨𝐦𝐛𝐫𝐞 𝐝𝐞 𝐜𝐚𝐧𝐜𝐢𝐨𝐧𝐞𝐬 𝐨 𝐯𝐢𝐝𝐞𝐨𝐬
+║ ✨ ᰔᩚ *#ss • #ssweb*
+║    ┗ 🌐 𝐕𝐞𝐫 𝐞𝐥 𝐞𝐬𝐭𝐚𝐝𝐨 𝐝𝐞 𝐮𝐧𝐚 𝐩𝐚́𝐠𝐢𝐧𝐚 𝐰𝐞𝐛
+║ 🔹 ᰔᩚ *#length • #tamaño*
+║    ┗ 📏 𝐂𝐚𝐦𝐛𝐢𝐚 𝐞𝐥 𝐭𝐚𝐦𝐚ñ𝐨 𝐝𝐞 𝐢𝐦𝐚́𝐠𝐞𝐧𝐞𝐬 𝐲 𝐯𝐢𝐝𝐞𝐨𝐬
+║ 🛠️ ᰔᩚ *#say • #decir* + [texto]
+║    ┗ 🗣️ 𝐑𝐞𝐩𝐞𝐭𝐢𝐫 𝐮𝐧 𝐦𝐞𝐧𝐬𝐚𝐣𝐞
+║ 🔧 ᰔᩚ *#todoc • #toducument*
+║    ┗ 📑 𝐂𝐫𝐞𝐚 𝐝𝐨𝐜𝐮𝐦𝐞𝐧𝐭𝐨𝐬 𝐝𝐞 (𝐚𝐮𝐝𝐢𝐨, 𝐢𝐦𝐚́𝐠𝐞𝐧𝐞𝐬 𝐲 𝐯𝐢𝐝𝐞𝐨𝐬)
+║ 🔸 ᰔᩚ *#translate • #traducir • #trad*
+║    ┗ 🌎 𝐓𝐫𝐚𝐝𝐮𝐜𝐞 𝐩𝐚𝐥𝐚𝐛𝐫𝐚𝐬 𝐞𝐧 𝐨𝐭𝐫𝐨𝐬 𝐢𝐝𝐢𝐨𝐦𝐚𝐬
+║
+╚═───🔧───🛠️───✨───🔹───═╝
 
 • :･ﾟ⊹˚• \`『 Perfil 』\` •˚⊹:･ﾟ•
 
