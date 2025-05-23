@@ -71,37 +71,45 @@ const menuHeader =
 ┃    ➥ ✏️ 𝐂𝐨𝐧𝐟𝐢𝐠𝐮𝐫𝐚𝐫 𝐏𝐫𝐨𝐦𝐩𝐭 𝐩𝐞𝐫𝐬𝐨𝐧𝐚𝐥𝐢𝐳𝐚𝐝𝐨.
 ╰━━━━━━━━━━━━━━━━━━━━━━╯
 
-• :･ﾟ⊹˚• \`『 Buscadores 』\` •˚⊹:･ﾟ•
+const menuBuscadores = 
+╔════════════════════╗
+║   🛰️ 𝐁𝐔𝐒𝐂𝐀𝐃𝐎𝐑𝐄𝐒 𝐌𝐄𝐍𝐔 🛰️
+╚════════════════════╝
 
-❍ Comandos para realizar búsquedas en distintas plataformas.
-ᰔᩚ *#tiktoksearch • #tiktoks*
-> ✦ Buscador de videos de tiktok.
-ᰔᩚ *#tweetposts*
-> ✦ Buscador de posts de Twitter/X.
-ᰔᩚ *#ytsearch • #yts*
-> ✦ Realiza búsquedas de Youtube.
-ᰔᩚ *#githubsearch*
-> ✦ Buscador de usuarios de GitHub.
-ᰔᩚ *#cuevana • #cuevanasearch*
-> ✦ Buscador de películas/series por Cuevana.
-ᰔᩚ *#google*
-> ✦ Realiza búsquedas por Google.
-ᰔᩚ *#pin • #pinterest*
-> ✦ Buscador de imagenes de Pinterest.
-ᰔᩚ *#imagen • #image*
-> ✦ buscador de imagenes de Google.
-ᰔᩚ *#infoanime*
-> ✦ Buscador de información de anime/manga.
-ᰔᩚ *#hentaisearch • #searchhentai*
-> ✦ Buscador de capítulos hentai.
-ᰔᩚ #xnxxsearch • #xnxxs*
-> ✦ Buscador de vídeos de Xnxx.
-ᰔᩚ *#xvsearch • #xvideossearch*
-> ✦ Buscador de vídeos de Xvideos.
-ᰔᩚ *#pornhubsearch • #phsearch*
-> ✦ Buscador de videos de Pornhub.
-ᰔᩚ *#npmjs*
-> ✦ Buscandor de npmjs.
+╔══╌╌╌╌╌╌╌╌╌╌╌╌╌╌══╗
+║  𝐂𝐨𝐦𝐚𝐧𝐝𝐨𝐬 𝐝𝐞 𝐁𝐮𝐬𝐪𝐮𝐞𝐝𝐚
+║
+║ ▣ ᰔᩚ *#tiktoksearch • #tiktoks*
+║    ┗ 🎵 𝐁𝐮𝐬𝐜𝐚 𝐯𝐢𝐝𝐞𝐨𝐬 𝐝𝐞 𝐓𝐢𝐤𝐓𝐨𝐤
+║ ▣ ᰔᩚ *#tweetposts*
+║    ┗ 🐦 𝐁𝐮𝐬𝐜𝐚 𝐩𝐨𝐬𝐭𝐬 𝐝𝐞 𝐗/𝐓𝐰𝐢𝐭𝐭𝐞𝐫
+║ ▣ ᰔᩚ *#ytsearch • #yts*
+║    ┗ ▶️ 𝐁𝐮𝐬𝐜𝐚 𝐞𝐧 𝐘𝐨𝐮𝐓𝐮𝐛𝐞
+║ ▣ ᰔᩚ *#githubsearch*
+║    ┗ 💻 𝐁𝐮𝐬𝐜𝐚 𝐮𝐬𝐮𝐚𝐫𝐢𝐨𝐬 𝐝𝐞 𝐆𝐢𝐭𝐇𝐮𝐛
+║ ▣ ᰔᩚ *#cuevana • #cuevanasearch*
+║    ┗ 🎬 𝐁𝐮𝐬𝐜𝐚 𝐩𝐞𝐥𝐢́𝐜𝐮𝐥𝐚𝐬/𝐬𝐞𝐫𝐢𝐞𝐬 𝐩𝐨𝐫 𝐂𝐮𝐞𝐯𝐚𝐧𝐚
+║ ▣ ᰔᩚ *#google*
+║    ┗ 🌐 𝐁𝐮𝐬𝐜𝐚 𝐞𝐧 𝐆𝐨𝐨𝐠𝐥𝐞
+║ ▣ ᰔᩚ *#pin • #pinterest*
+║    ┗ 📌 𝐁𝐮𝐬𝐜𝐚 𝐢𝐦𝐚́𝐠𝐞𝐧𝐞𝐬 𝐝𝐞 𝐏𝐢𝐧𝐭𝐞𝐫𝐞𝐬𝐭
+║ ▣ ᰔᩚ *#imagen • #image*
+║    ┗ 🖼️ 𝐁𝐮𝐬𝐜𝐚 𝐢𝐦𝐚́𝐠𝐞𝐧𝐞𝐬 𝐞𝐧 𝐆𝐨𝐨𝐠𝐥𝐞
+║ ▣ ᰔᩚ *#infoanime*
+║    ┗ 📚 𝐁𝐮𝐬𝐜𝐚 𝐢𝐧𝐟𝐨 𝐝𝐞 𝐚𝐧𝐢𝐦𝐞/𝐦𝐚𝐧𝐠𝐚
+║ ▣ ᰔᩚ *#hentaisearch • #searchhentai*
+║    ┗ 🍑 𝐁𝐮𝐬𝐜𝐚 𝐜𝐚𝐩𝐢́𝐭𝐮𝐥𝐨𝐬 𝐡𝐞𝐧𝐭𝐚𝐢
+║ ▣ ᰔᩚ *#xnxxsearch • #xnxxs*
+║    ┗ 🔞 𝐁𝐮𝐬𝐜𝐚 𝐯𝐢𝐝𝐞𝐨𝐬 𝐝𝐞 Xnxx
+║ ▣ ᰔᩚ *#xvsearch • #xvideossearch*
+║    ┗ 🔞 𝐁𝐮𝐬𝐜𝐚 𝐯𝐢𝐝𝐞𝐨𝐬 𝐝𝐞 Xvideos
+║ ▣ ᰔᩚ *#pornhubsearch • #phsearch*
+║    ┗ 🔞 𝐁𝐮𝐬𝐜𝐚 𝐯𝐢𝐝𝐞𝐨𝐬 𝐝𝐞 𝐏𝐨𝐫𝐧𝐡𝐮𝐛
+║ ▣ ᰔᩚ *#npmjs*
+║    ┗ 📦 𝐁𝐮𝐬𝐜𝐚𝐝𝐨𝐫 𝐝𝐞 𝐧𝐩𝐦𝐣𝐬
+╚══╌╌╌╌╌╌╌╌╌╌╌╌╌╌══╝
+
+export default menuBuscadores;
 
 • :･ﾟ⊹˚• \`『 Descargas 』\` •˚⊹:･ﾟ•
 
