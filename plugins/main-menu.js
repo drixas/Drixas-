@@ -332,39 +332,50 @@ const menuHerramientas =
 ║
 ╚═───🔧───🛠️───✨───🔹───═╝
 
-• :･ﾟ⊹˚• \`『 Perfil 』\` •˚⊹:･ﾟ•
+const menuPerfil = 
+🧑‍💼✨🧩🌟💠🧑‍💼✨🧩🌟💠🧑‍💼✨🧩
+╔════════════════════════════════════════╗
+║        👤 𝐌𝐄𝐍𝐔́ 𝐃𝐄 𝐏𝐄𝐑𝐅𝐈𝐋 👤
+║               By: @drixas
+╚════════════════════════════════════════╝
 
-❍ Comandos de perfil para ver, configurar y comprobar estados de tu perfil.
-ᰔᩚ *#reg • #verificar • #register*
-> ✦ Registra tu nombre y edad en el bot.
-ᰔᩚ *#unreg*
-> ✦ Elimina tu registro del bot.
-ᰔᩚ *#profile*
-> ✦ Muestra tu perfil de usuario.
-ᰔᩚ *#marry* [mension / etiquetar]
-> ✦ Propón matrimonio a otro usuario.
-ᰔᩚ *#divorce*
-> ✦ Divorciarte de tu pareja.
-ᰔᩚ *#setgenre • #setgenero*
-> ✦ Establece tu género en el perfil del bot.
-ᰔᩚ *#delgenre • #delgenero*
-> ✦ Elimina tu género del perfil del bot.
-ᰔᩚ *#setbirth • #setnacimiento*
-> ✦ Establece tu fecha de nacimiento en el perfil del bot.
-ᰔᩚ *#delbirth • #delnacimiento*
-> ✦ Elimina tu fecha de nacimiento del perfil del bot.
-ᰔᩚ *#setdescription • #setdesc*
-> ✦ Establece una descripción en tu perfil del bot.
-ᰔᩚ *#deldescription • #deldesc*
-> ✦ Elimina la descripción de tu perfil del bot.
-ᰔᩚ *#lb • #lboard* + <Paginá>
-> ✦ Top de usuarios con más (experiencia y nivel).
-ᰔᩚ *#level • #lvl* + <@Mencion>
-> ✦ Ver tu nivel y experiencia actual.
-ᰔᩚ *#comprarpremium • #premium*
-> ✦ Compra un pase premium para usar el bot sin límites.
-ᰔᩚ *#confesiones • #confesar*
-> ✦ Confiesa tus sentimientos a alguien de manera anonima.
+❍ 𝐂𝐨𝐦𝐚𝐧𝐝𝐨𝐬 𝐩𝐚𝐫𝐚 𝐯𝐞𝐫, 𝐜𝐨𝐧𝐟𝐢𝐠𝐮𝐫𝐚𝐫 𝐲 𝐜𝐨𝐦𝐩𝐫𝐨𝐛𝐚𝐫 𝐞𝐬𝐭𝐚𝐝𝐨𝐬 𝐝𝐞 𝐭𝐮 𝐩𝐞𝐫𝐟𝐢𝐥.
+
+╔═───🧑‍💼───✨───🧩───🌟───═╗
+║
+║ 👤 ᰔᩚ *#reg • #verificar • #register*
+║    ┗ 📝 𝐑𝐞𝐠𝐢𝐬𝐭𝐫𝐚 𝐭𝐮 𝐧𝐨𝐦𝐛𝐫𝐞 𝐲 𝐞𝐝𝐚𝐝 𝐞𝐧 𝐞𝐥 𝐛𝐨𝐭
+║ 💠 ᰔᩚ *#unreg*
+║    ┗ ❌ 𝐄𝐥𝐢𝐦𝐢𝐧𝐚 𝐭𝐮 𝐫𝐞𝐠𝐢𝐬𝐭𝐫𝐨 𝐝𝐞𝐥 𝐛𝐨𝐭
+║ 🧑‍💼 ᰔᩚ *#profile*
+║    ┗ 👤 𝐌𝐮𝐞𝐬𝐭𝐫𝐚 𝐭𝐮 𝐩𝐞𝐫𝐟𝐢𝐥 𝐝𝐞 𝐮𝐬𝐮𝐚𝐫𝐢𝐨
+║ 🌟 ᰔᩚ *#marry* [mención / etiquetar]
+║    ┗ 💍 𝐏𝐫𝐨𝐩𝐨́𝐧 𝐦𝐚𝐭𝐫𝐢𝐦𝐨𝐧𝐢𝐨 𝐚 𝐨𝐭𝐫𝐨 𝐮𝐬𝐮𝐚𝐫𝐢𝐨
+║ ✨ ᰔᩚ *#divorce*
+║    ┗ 💔 𝐃𝐢𝐯𝐨𝐫𝐜𝐢𝐚𝐫𝐭𝐞 𝐝𝐞 𝐭𝐮 𝐩𝐚𝐫𝐞𝐣𝐚
+║ 🧩 ᰔᩚ *#setgenre • #setgenero*
+║    ┗ 🚻 𝐄𝐬𝐭𝐚𝐛𝐥𝐞𝐜𝐞 𝐭𝐮 𝐠𝐞́𝐧𝐞𝐫𝐨 𝐞𝐧 𝐭𝐮 𝐩𝐞𝐫𝐟𝐢𝐥
+║ 💠 ᰔᩚ *#delgenre • #delgenero*
+║    ┗ 🗑️ 𝐄𝐥𝐢𝐦𝐢𝐧𝐚 𝐭𝐮 𝐠𝐞́𝐧𝐞𝐫𝐨 𝐝𝐞𝐥 𝐩𝐞𝐫𝐟𝐢𝐥
+║ 🌟 ᰔᩚ *#setbirth • #setnacimiento*
+║    ┗ 🎂 𝐄𝐬𝐭𝐚𝐛𝐥𝐞𝐜𝐞 𝐭𝐮 𝐟𝐞𝐜𝐡𝐚 𝐝𝐞 𝐧𝐚𝐜𝐢𝐦𝐢𝐞𝐧𝐭𝐨
+║ 🧑‍💼 ᰔᩚ *#delbirth • #delnacimiento*
+║    ┗ 🗑️ 𝐄𝐥𝐢𝐦𝐢𝐧𝐚 𝐭𝐮 𝐟𝐞𝐜𝐡𝐚 𝐝𝐞 𝐧𝐚𝐜𝐢𝐦𝐢𝐞𝐧𝐭𝐨
+║ ✨ ᰔᩚ *#setdescription • #setdesc*
+║    ┗ 🖋️ 𝐄𝐬𝐭𝐚𝐛𝐥𝐞𝐜𝐞 𝐮𝐧𝐚 𝐝𝐞𝐬𝐜𝐫𝐢𝐩𝐜𝐢𝐨́𝐧 𝐞𝐧 𝐭𝐮 𝐩𝐞𝐫𝐟𝐢𝐥
+║ 💠 ᰔᩚ *#deldescription • #deldesc*
+║    ┗ 🗑️ 𝐄𝐥𝐢𝐦𝐢𝐧𝐚 𝐥𝐚 𝐝𝐞𝐬𝐜𝐫𝐢𝐩𝐜𝐢𝐨́𝐧 𝐝𝐞 𝐭𝐮 𝐩𝐞𝐫𝐟𝐢𝐥
+║ 🧩 ᰔᩚ *#lb • #lboard* + <Paginá>
+║    ┗ 🏆 𝐓𝐨𝐩 𝐝𝐞 𝐮𝐬𝐮𝐚𝐫𝐢𝐨𝐬 𝐜𝐨𝐧 𝐦𝐚́𝐬 𝐞𝐱𝐩𝐞𝐫𝐢𝐞𝐧𝐜𝐢𝐚 𝐲 𝐧𝐢𝐯𝐞𝐥
+║ 🌟 ᰔᩚ *#level • #lvl* + <@Mención>
+║    ┗ 📈 𝐕𝐞𝐫 𝐭𝐮 𝐧𝐢𝐯𝐞𝐥 𝐲 𝐞𝐱𝐩𝐞𝐫𝐢𝐞𝐧𝐜𝐢𝐚 𝐚𝐜𝐭𝐮𝐚𝐥
+║ ✨ ᰔᩚ *#comprarpremium • #premium*
+║    ┗ 💳 𝐂𝐨𝐦𝐩𝐫𝐚 𝐮𝐧 𝐩𝐚𝐬𝐞 𝐩𝐫𝐞𝐦𝐢𝐮𝐦 𝐲 𝐮𝐬𝐚 𝐞𝐥 𝐛𝐨𝐭 𝐬𝐢𝐧 𝐥𝐢́𝐦𝐢𝐭𝐞𝐬
+║ 🧑‍💼 ᰔᩚ *#confesiones • #confesar*
+║    ┗ 🕵️‍♂️ 𝐂𝐨𝐧𝐟𝐢𝐞𝐬𝐚 𝐬𝐢𝐧 𝐪𝐮𝐞 𝐬𝐞𝐩𝐚𝐧 𝐪𝐮𝐢𝐞́𝐧 𝐞𝐫𝐞𝐬
+║
+╚═───🧑‍💼───✨───🧩───🌟───═╝
+
 
 • :･ﾟ⊹˚• \`『 Grupos 』\` •˚⊹:･ﾟ•
 
