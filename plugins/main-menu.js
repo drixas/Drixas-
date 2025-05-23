@@ -230,25 +230,37 @@ const menuHeader =
 ║
 ╚═───💸───💸───💸───💸───═╝
 
-• :･ﾟ⊹˚• \`『 Gacha 』\` •˚⊹:･ﾟ•
+const menuGacha = 
+`🎲🎴🎲🎴🎲🎴🎲🎴🎲🎴🎲🎴🎲🎴🎲🎴
+╔═════════════════════════════════════╗
+║        🎴 𝐌𝐄𝐍𝐔́ 𝐃𝐄 𝐆𝐀𝐂𝐇𝐀 𝐑𝐏𝐆 🎴
+║            By: @drixas
+╚═════════════════════════════════════╝
 
-❍ Comandos de gacha para reclamar y colecciónar personajes.
-ᰔᩚ *#rollwaifu • #rw • #roll*
-> ✦ Waifu o husbando aleatorio.
-ᰔᩚ  *#claim • #c • #reclamar*
-> ✦ Reclamar un personaje.
-ᰔᩚ *#harem • #waifus • #claims*
-> ✦ Ver tus personajes reclamados.
-ᰔᩚ *#charimage • #waifuimage • #wimage* 
-> ✦ Ver una imagen aleatoria de un personaje.
-ᰔᩚ *#charinfo • #winfo • #waifuinfo*
-> ✦ Ver información de un personaje.
-ᰔᩚ *#givechar • #givewaifu • #regalar*
-> ✦ Regalar un personaje a otro usuario.
-ᰔᩚ *#vote • #votar*
-> ✦ Votar por un personaje para subir su valor.
-ᰔᩚ *#waifusboard • #waifustop • #topwaifus*
-> ✦ Ver el top de personajes con mayor valor.
+❍ 𝐂𝐨𝐦𝐚𝐧𝐝𝐨𝐬 𝐝𝐞 𝐠𝐚𝐜𝐡𝐚 𝐩𝐚𝐫𝐚 𝐫𝐞𝐜𝐥𝐚𝐦𝐚𝐫 𝐲 𝐜𝐨𝐥𝐞𝐜𝐜𝐢𝐨𝐧𝐚𝐫 𝐩𝐞𝐫𝐬𝐨𝐧𝐚𝐣𝐞𝐬.
+
+╔═───🎲───🎴───🎲───🎴───═╗
+║
+║ 🎴 ᰔᩚ *#rollwaifu • #rw • #roll*
+║    ┗ 🎲 𝐖𝐚𝐢𝐟𝐮 𝐨 𝐡𝐮𝐬𝐛𝐚𝐧𝐝𝐨 𝐚𝐥𝐞𝐚𝐭𝐨𝐫𝐢𝐨
+║ 🎴 ᰔᩚ *#claim • #c • #reclamar*
+║    ┗ 🏷️ 𝐑𝐞𝐜𝐥𝐚𝐦𝐚𝐫 𝐮𝐧 𝐩𝐞𝐫𝐬𝐨𝐧𝐚𝐣𝐞
+║ 🎴 ᰔᩚ *#harem • #waifus • #claims*
+║    ┗ 💖 𝐕𝐞𝐫 𝐭𝐮𝐬 𝐩𝐞𝐫𝐬𝐨𝐧𝐚𝐣𝐞𝐬 𝐫𝐞𝐜𝐥𝐚𝐦𝐚𝐝𝐨𝐬
+║ 🎴 ᰔᩚ *#charimage • #waifuimage • #wimage*
+║    ┗ 🖼️ 𝐕𝐞𝐫 𝐢𝐦𝐚𝐠𝐞𝐧 𝐚𝐥𝐞𝐚𝐭𝐨𝐫𝐢𝐚 𝐝𝐞 𝐩𝐞𝐫𝐬𝐨𝐧𝐚𝐣𝐞
+║ 🎴 ᰔᩚ *#charinfo • #winfo • #waifuinfo*
+║    ┗ 📖 𝐕𝐞𝐫 𝐢𝐧𝐟𝐨𝐫𝐦𝐚𝐜𝐢𝐨́𝐧 𝐝𝐞 𝐮𝐧 𝐩𝐞𝐫𝐬𝐨𝐧𝐚𝐣𝐞
+║ 🎴 ᰔᩚ *#givechar • #givewaifu • #regalar*
+║    ┗ 🎁 𝐑𝐞𝐠𝐚𝐥𝐚𝐫 𝐮𝐧 𝐩𝐞𝐫𝐬𝐨𝐧𝐚𝐣𝐞 𝐚 𝐨𝐭𝐫𝐨 𝐮𝐬𝐮𝐚𝐫𝐢𝐨
+║ 🎴 ᰔᩚ *#vote • #votar*
+║    ┗ 🗳️ 𝐕𝐨𝐭𝐚𝐫 𝐩𝐨𝐫 𝐮𝐧 𝐩𝐞𝐫𝐬𝐨𝐧𝐚𝐣𝐞 𝐲 𝐬𝐮𝐛𝐢𝐫 𝐬𝐮 𝐯𝐚𝐥𝐨𝐫
+║ 🎴 ᰔᩚ *#waifusboard • #waifustop • #topwaifus*
+║    ┗ 🏆 𝐓𝐨𝐩 𝐝𝐞 𝐩𝐞𝐫𝐬𝐨𝐧𝐚𝐣𝐞𝐬 𝐜𝐨𝐧 𝐦𝐚𝐲𝐨𝐫 𝐯𝐚𝐥𝐨𝐫
+║
+╚═───🎲───🎴───🎲───🎴───═╝`;
+
+export default menuGacha;
 
 • :･ﾟ⊹˚• \`『 Stickers 』\` •˚⊹:･ﾟ•
 
