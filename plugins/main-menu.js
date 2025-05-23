@@ -160,65 +160,75 @@ const menuHeader =
 ╚═───🔥───🔥───🔥───🔥───═╝
 
 
-• :･ﾟ⊹˚• \`『 Economia 』\` •˚⊹:･ﾟ•
+💸💸💸💸💸💸💸💸💸💸💸💸💸💸💸💸💸
+╔══════════════════════════════════════╗
+║   💸 𝐌𝐄𝐍𝐔́ 𝐃𝐄 𝐄𝐂𝐎𝐍𝐎𝐌𝐈́𝐀 𝐑𝐏𝐆 💸
+║        By: @drixas
+╚══════════════════════════════════════╝
+💸💸💸💸💸💸💸💸💸💸💸💸💸💸💸💸💸
 
-❍ Comandos de economía y rpg para ganar dinero y otros recursos.
-ᰔᩚ *#w • #work • #trabajar*
-> ✦ Trabaja para ganar ${moneda}.
-ᰔᩚ *#slut • #protituirse*
-> ✦ Trabaja como prostituta y gana ${moneda}.
-ᰔᩚ *#cf • #suerte*
-> ✦ Apuesta tus ${moneda} a cara o cruz.
-ᰔᩚ *#crime • #crimen
-> ✦ Trabaja como ladrón para ganar ${moneda}.
-ᰔᩚ *#ruleta • #roulette • #rt*
-> ✦ Apuesta ${moneda} al color rojo o negro.
-ᰔᩚ *#casino • #apostar*
-> ✦ Apuesta tus ${moneda} en el casino.
-ᰔᩚ *#slot*
-> ✦ Apuesta tus ${moneda} en la ruleta y prueba tu suerte.
-ᰔᩚ *#cartera • #wallet*
-> ✦ Ver tus ${moneda} en la cartera.
-ᰔᩚ *#banco • #bank*
-> ✦ Ver tus ${moneda} en el banco.
-ᰔᩚ *#deposit • #depositar • #d*
-> ✦ Deposita tus ${moneda} al banco.
-ᰔᩚ *#with • #retirar • #withdraw*
-> ✦ Retira tus ${moneda} del banco.
-ᰔᩚ *#transfer • #pay*
-> ✦ Transfiere ${moneda} o XP a otros usuarios.
-ᰔᩚ *#miming • #minar • #mine*
-> ✦ Trabaja como minero y recolecta recursos.
-ᰔᩚ *#buyall • #buy*
-> ✦ Compra ${moneda} con tu XP.
-ᰔᩚ *#daily • #diario*
-> ✦ Reclama tu recompensa diaria.
-ᰔᩚ *#cofre*
-> ✦ Reclama un cofre diario lleno de recursos.
-ᰔᩚ *#weekly • #semanal*
-> ✦ Reclama tu regalo semanal.
-ᰔᩚ *#monthly • #mensual*
-> ✦ Reclama tu recompensa mensual.
-ᰔᩚ *#steal • #robar • #rob*
-> ✦ Intenta robarle ${moneda} a alguien.
-ᰔᩚ *#robarxp • #robxp*
-> ✦ Intenta robar XP a un usuario.
-ᰔᩚ *#eboard • #baltop*
-> ✦ Ver el ranking de usuarios con más ${moneda}.
-ᰔᩚ *#aventura • #adventure*
-> ✦ Aventúrate en un nuevo reino y recolecta recursos.
-ᰔᩚ *#curar • #heal*
-> ✦ Cura tu salud para volverte aventurar.
-ᰔᩚ *#cazar • #hunt • #berburu*
-> ✦ Aventúrate en una caza de animales.
-ᰔᩚ *#inv • #inventario*
-> ✦ Ver tu inventario con todos tus ítems.
-ᰔᩚ *#mazmorra • #explorar*
-> ✦ Explorar mazmorras para ganar ${moneda}.
-ᰔᩚ *#halloween*
-> ✦ Reclama tu dulce o truco (Solo en Halloween).
-ᰔᩚ *#christmas • #navidad*
-> ✦ Reclama tu regalo navideño (Solo en Navidad).
+❍ 𝐂𝐨𝐦𝐚𝐧𝐝𝐨𝐬 𝐝𝐞 𝐞𝐜𝐨𝐧𝐨𝐦𝐢́𝐚 𝐲 𝐑𝐏𝐆 𝐩𝐚𝐫𝐚 𝐠𝐚𝐧𝐚𝐫 𝐝𝐢𝐧𝐞𝐫𝐨 𝐲 𝐫𝐞𝐜𝐮𝐫𝐬𝐨𝐬.
+
+╔═───💸───💸───💸───💸───═╗
+║
+║ 💸 ᰔᩚ *#w • #work • #trabajar*
+║    ┗ 🛠️ 𝐓𝐫𝐚𝐛𝐚𝐣𝐚 𝐩𝐚𝐫𝐚 𝐠𝐚𝐧𝐚𝐫 ${moneda}
+║ 💸 ᰔᩚ *#slut • #protituirse*
+║    ┗ 👠 𝐓𝐫𝐚𝐛𝐚𝐣𝐚 𝐜𝐨𝐦𝐨 𝐩𝐫𝐨𝐬𝐭𝐢𝐭𝐮𝐭𝐚 𝐲 𝐠𝐚𝐧𝐚 ${moneda}
+║ 💸 ᰔᩚ *#cf • #suerte*
+║    ┗ 🎲 𝐀𝐩𝐮𝐞𝐬𝐭𝐚 𝐭𝐮𝐬 ${moneda} 𝐚 𝐜𝐚𝐫𝐚 𝐨 𝐜𝐫𝐮𝐳
+║ 💸 ᰔᩚ *#crime • #crimen*
+║    ┗ 🦹‍♂️ 𝐒𝐞 𝐮𝐧 𝐥𝐚𝐝𝐫𝐨́𝐧 𝐲 𝐠𝐚𝐧𝐚 ${moneda}
+║ 💸 ᰔᩚ *#ruleta • #roulette • #rt*
+║    ┗ 🎰 𝐀𝐩𝐮𝐞𝐬𝐭𝐚 ${moneda} 𝐚𝐥 𝐜𝐨𝐥𝐨𝐫 𝐫𝐨𝐣𝐨 𝐨 𝐧𝐞𝐠𝐫𝐨
+║ 💸 ᰔᩚ *#casino • #apostar*
+║    ┗ 🏦 𝐀𝐩𝐮𝐞𝐬𝐭𝐚 𝐭𝐮𝐬 ${moneda} 𝐞𝐧 𝐞𝐥 𝐜𝐚𝐬𝐢𝐧𝐨
+║ 💸 ᰔᩚ *#slot*
+║    ┗ 🎰 𝐏𝐫𝐮𝐞𝐛𝐚 𝐭𝐮 𝐬𝐮𝐞𝐫𝐭𝐞 𝐞𝐧 𝐥𝐚 𝐫𝐮𝐥𝐞𝐭𝐚
+║ 💸 ᰔᩚ *#cartera • #wallet*
+║    ┗ 👛 𝐕𝐞𝐫 𝐭𝐮𝐬 ${moneda} 𝐞𝐧 𝐥𝐚 𝐜𝐚𝐫𝐭𝐞𝐫𝐚
+║ 💸 ᰔᩚ *#banco • #bank*
+║    ┗ 🏦 𝐕𝐞𝐫 𝐭𝐮𝐬 ${moneda} 𝐞𝐧 𝐞𝐥 𝐛𝐚𝐧𝐜𝐨
+║ 💸 ᰔᩚ *#deposit • #depositar • #d*
+║    ┗ 💸 𝐃𝐞𝐩𝐨𝐬𝐢𝐭𝐚 𝐭𝐮𝐬 ${moneda} 𝐚𝐥 𝐛𝐚𝐧𝐜𝐨
+║ 💸 ᰔᩚ *#with • #retirar • #withdraw*
+║    ┗ 🏧 𝐑𝐞𝐭𝐢𝐫𝐚 𝐭𝐮𝐬 ${moneda} 𝐝𝐞𝐥 𝐛𝐚𝐧𝐜𝐨
+║ 💸 ᰔᩚ *#transfer • #pay*
+║    ┗ 🔄 𝐓𝐫𝐚𝐧𝐬𝐟𝐢𝐞𝐫𝐞 ${moneda} 𝐨 𝐗𝐏 𝐚 𝐨𝐭𝐫𝐨𝐬 𝐮𝐬𝐮𝐚𝐫𝐢𝐨𝐬
+║ 💸 ᰔᩚ *#miming • #minar • #mine*
+║    ┗ ⛏️ 𝐒𝐞 𝐦𝐢𝐧𝐞𝐫𝐨 𝐲 𝐫𝐞𝐜𝐨𝐥𝐞𝐜𝐭𝐚 𝐫𝐞𝐜𝐮𝐫𝐬𝐨𝐬
+║ 💸 ᰔᩚ *#buyall • #buy*
+║    ┗ 🛒 𝐂𝐨𝐦𝐩𝐫𝐚 ${moneda} 𝐜𝐨𝐧 𝐭𝐮 𝐗𝐏
+║ 💸 ᰔᩚ *#daily • #diario*
+║    ┗ 📆 𝐑𝐞𝐜𝐥𝐚𝐦𝐚 𝐭𝐮 𝐫𝐞𝐜𝐨𝐦𝐩𝐞𝐧𝐬𝐚 𝐝𝐢𝐚𝐫𝐢𝐚
+║ 💸 ᰔᩚ *#cofre*
+║    ┗ 🎁 𝐑𝐞𝐜𝐥𝐚𝐦𝐚 𝐮𝐧 𝐜𝐨𝐟𝐫𝐞 𝐝𝐢𝐚𝐫𝐢𝐨 𝐥𝐥𝐞𝐧𝐨 𝐝𝐞 𝐫𝐞𝐜𝐮𝐫𝐬𝐨𝐬
+║ 💸 ᰔᩚ *#weekly • #semanal*
+║    ┗ 📅 𝐑𝐞𝐜𝐥𝐚𝐦𝐚 𝐭𝐮 𝐫𝐞𝐠𝐚𝐥𝐨 𝐬𝐞𝐦𝐚𝐧𝐚𝐥
+║ 💸 ᰔᩚ *#monthly • #mensual*
+║    ┗ 🗓️ 𝐑𝐞𝐜𝐥𝐚𝐦𝐚 𝐭𝐮 𝐫𝐞𝐜𝐨𝐦𝐩𝐞𝐧𝐬𝐚 𝐦𝐞𝐧𝐬𝐮𝐚𝐥
+║ 💸 ᰔᩚ *#steal • #robar • #rob*
+║    ┗ 🥷 𝐑𝐨𝐛𝐚 𝐚 𝐚𝐥𝐠𝐮𝐢𝐞𝐧 𝐲 𝐠𝐚𝐧𝐚 ${moneda}
+║ 💸 ᰔᩚ *#robarxp • #robxp*
+║    ┗ 🎯 𝐑𝐨𝐛𝐚 𝐗𝐏 𝐚 𝐮𝐧 𝐮𝐬𝐮𝐚𝐫𝐢𝐨
+║ 💸 ᰔᩚ *#eboard • #baltop*
+║    ┗ 🏆 𝐑𝐚𝐧𝐤𝐢𝐧𝐠 𝐝𝐞 𝐮𝐬𝐮𝐚𝐫𝐢𝐨𝐬 𝐜𝐨𝐧 𝐦𝐚́𝐬 ${moneda}
+║ 💸 ᰔᩚ *#aventura • #adventure*
+║    ┗ 🏝️ 𝐀𝐝𝐞𝐧𝐭𝐫𝐚𝐭𝐞 𝐞𝐧 𝐮𝐧 𝐫𝐞𝐢𝐧𝐨 𝐲 𝐫𝐞𝐜𝐨𝐥𝐞𝐜𝐭𝐚 𝐫𝐞𝐜𝐮𝐫𝐬𝐨𝐬
+║ 💸 ᰔᩚ *#curar • #heal*
+║    ┗ 💉 𝐂𝐮𝐫𝐚 𝐭𝐮 𝐬𝐚𝐥𝐮𝐝 𝐩𝐚𝐫𝐚 𝐚𝐯𝐞𝐧𝐭𝐮𝐫𝐚𝐫𝐭𝐞 𝐦𝐚́𝐬
+║ 💸 ᰔᩚ *#cazar • #hunt • #berburu*
+║    ┗ 🦌 𝐂𝐚𝐳𝐚 𝐚𝐧𝐢𝐦𝐚𝐥𝐞𝐬 𝐩𝐚𝐫𝐚 𝐫𝐞𝐜𝐨𝐥𝐞𝐜𝐭𝐚𝐫 𝐫𝐞𝐜𝐮𝐫𝐬𝐨𝐬
+║ 💸 ᰔᩚ *#inv • #inventario*
+║    ┗ 🎒 𝐕𝐞𝐫 𝐭𝐮 𝐢𝐧𝐯𝐞𝐧𝐭𝐚𝐫𝐢𝐨 𝐲 𝐭𝐨𝐝𝐨𝐬 𝐭𝐮𝐬 𝐢́𝐭𝐞𝐦𝐬
+║ 💸 ᰔᩚ *#mazmorra • #explorar*
+║    ┗ 🗝️ 𝐄𝐱𝐩𝐥𝐨𝐫𝐚 𝐦𝐚𝐳𝐦𝐨𝐫𝐫𝐚𝐬 𝐲 𝐠𝐚𝐧𝐚 ${moneda}
+║ 💸 ᰔᩚ *#halloween*
+║    ┗ 🍬 𝐑𝐞𝐜𝐥𝐚𝐦𝐚 𝐭𝐮 𝐝𝐮𝐥𝐜𝐞 𝐨 𝐭𝐫𝐮𝐜𝐨 (𝐒𝐨𝐥𝐨 𝐞𝐧 𝐇𝐚𝐥𝐥𝐨𝐰𝐞𝐞𝐧)
+║ 💸 ᰔᩚ *#christmas • #navidad*
+║    ┗ 🎄 𝐑𝐞𝐜𝐥𝐚𝐦𝐚 𝐭𝐮 𝐫𝐞𝐠𝐚𝐥𝐨 𝐧𝐚𝐯𝐢𝐝𝐞𝐧̃𝐨 (𝐒𝐨𝐥𝐨 𝐞𝐧 𝐍𝐚𝐯𝐢𝐝𝐚𝐝)
+║
+╚═───💸───💸───💸───💸───═╝
 
 • :･ﾟ⊹˚• \`『 Gacha 』\` •˚⊹:･ﾟ•
 
