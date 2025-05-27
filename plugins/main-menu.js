@@ -376,71 +376,107 @@ const menuPerfil =
 ╚═───🧑‍💼───✨───🧩───🌟───═╝
 
 
-• :･ﾟ⊹˚• \`『 Grupos 』\` •˚⊹:･ﾟ•
+╭─━━━━⊹⊹⊹⊹⊹⊹⊹⊹⊹━━━━─╮
+    👥💬🤝『 𝐆𝐑𝐔𝐏𝐎𝐒 』🤝💬👥
+         𝑩𝒚: @drixas ✨
+╰─━━━━⊹⊹⊹⊹⊹⊹⊹⊹⊹━━━━─╯
 
-❍ Comandos de grupos para una mejor gestión de ellos.
-ᰔᩚ *#hidetag*
-> ✦ Envia un mensaje mencionando a todos los usuarios
-ᰔᩚ *#gp • #infogrupo*
-> ✦  Ver la Informacion del grupo.
-ᰔᩚ *#linea • #listonline*
-> ✦ Ver la lista de los usuarios en linea.
-ᰔᩚ *#setwelcome*
-> ✦ Establecer un mensaje de bienvenida personalizado.
-ᰔᩚ *#setbye*
-> ✦ Establecer un mensaje de despedida personalizado.
-ᰔᩚ *#link*
-> ✦ El bot envia el link del grupo.
-ᰔᩚ *admins • admin*
-> ✦ Mencionar a los admins para solicitar ayuda.
-ᰔᩚ *#restablecer • #revoke*
-> ✦ Restablecer el enlace del grupo.
-ᰔᩚ *#grupo • #group* [open / abrir]
-> ✦ Cambia ajustes del grupo para que todos los usuarios envien mensaje.
-ᰔᩚ *#grupo • #gruop* [close / cerrar]
-> ✦ Cambia ajustes del grupo para que solo los administradores envien mensaje.
-ᰔᩚ *#kick* [número / mension]
-> ✦ Elimina un usuario de un grupo.
-ᰔᩚ *#add • #añadir • #agregar* [número]
-> ✦ Invita a un usuario a tu grupo.
-ᰔᩚ *#promote* [mension / etiquetar]
-> ✦ El bot dara administrador al usuario mencionando.
-ᰔᩚ *#demote* [mension / etiquetar]
-> ✦ El bot quitara administrador al usuario mencionando.
-ᰔᩚ *#gpbanner • #groupimg*
-> ✦ Cambiar la imagen del grupo.
-ᰔᩚ *#gpname • #groupname*
-> ✦ Cambiar el nombre del grupo.
-ᰔᩚ *#gpdesc • #groupdesc*
-> ✦ Cambiar la descripción del grupo.
-ᰔᩚ *#advertir • #warn • #warning*
-> ✦ Darle una advertencia aún usuario.
-ᰔᩚ ︎*#unwarn • #delwarn*
-> ✦ Quitar advertencias.
-ᰔᩚ *#advlist • #listadv*
-> ✦ Ver lista de usuarios advertidos.
-ᰔᩚ *#bot on*
-> ✦ Enciende el bot en un grupo.
-ᰔᩚ *#bot off*
-> ✦ Apaga el bot en un grupo.
-ᰔᩚ *#mute* [mension / etiquetar]
-> ✦ El bot elimina los mensajes del usuario.
-ᰔᩚ *#unmute* [mension / etiquetar]
-> ✦ El bot deja de eliminar los mensajes del usuario.
-ᰔᩚ *#encuesta • #poll*
-> ✦ Crea una encuesta.
-ᰔᩚ *#delete • #del*
-> ✦ Elimina mensaje de otros usuarios.
-ᰔᩚ *#fantasmas*
-> ✦ Ver lista de inactivos del grupo.
-ᰔᩚ *#kickfantasmas*
-> ✦ Elimina a los inactivos del grupo.
-ᰔᩚ *#invocar • #tagall • #todos*
-> ✦ Invoca a todos los usuarios de un grupo.
-ᰔᩚ *#setemoji • #setemo*
-> ✦ Cambia el emoji que se usa en la invitación de usuarios.
-ᰔᩚ *#listnum • #kicknum*
-> ✦ Elimine a usuario por el prefijo de país.
+❖ 𝐂𝐨𝐦𝐚𝐧𝐝𝐨𝐬 𝐝𝐞 𝐆𝐫𝐮𝐩𝐨𝐬 𝐩𝐚𝐫𝐚 𝐠𝐞𝐬𝐭𝐢𝐨́𝐧 𝐚𝐝𝐯𝐚𝐧𝐜𝐞𝐝𝐚 ❖
+
+┃ 👥 ᰔᩚ *#hidetag*
+┃    ┃ 🏷️ Menciona a todos los usuarios
+
+┃ ℹ️ ᰔᩚ *#gp • #infogrupo*
+┃    ┃ 📄 Muestra info del grupo
+
+┃ 🟢 ᰔᩚ *#linea • #listonline*
+┃    ┃ 🟩 Lista de usuarios en línea
+
+┃ 🎉 ᰔᩚ *#setwelcome*
+┃    ┃ 👋 Mensaje de bienvenida
+
+┃ 👋 ᰔᩚ *#setbye*
+┃    ┃ 💤 Mensaje de despedida
+
+┃ 🔗 ᰔᩚ *#link*
+┃    ┃ 🌐 Envía el enlace del grupo
+
+┃ 🛡️ ᰔᩚ *admins • admin*
+┃    ┃ 👑 Menciona a los admins
+
+┃ ♻️ ᰔᩚ *#restablecer • #revoke*
+┃    ┃ ♻️ Restablece el enlace del grupo
+
+┃ 🔓 ᰔᩚ *#grupo • #group* [open / abrir]
+┃    ┃ 🔓 Permite que todos escriban
+
+┃ 🔒 ᰔᩚ *#grupo • #group* [close / cerrar]
+┃    ┃ 🔒 Solo admins pueden escribir
+
+┃ 🚫 ᰔᩚ *#kick* [número / mención]
+┃    ┃ 🚫 Elimina un usuario
+
+┃ ➕ ᰔᩚ *#add • #añadir • #agregar* [número]
+┃    ┃ ➕ Agrega un usuario
+
+┃ ⬆️ ᰔᩚ *#promote* [mención]
+┃    ┃ ⬆️ Sube a admin
+
+┃ ⬇️ ᰔᩚ *#demote* [mención]
+┃    ┃ ⬇️ Quita admin
+
+┃ 🖼️ ᰔᩚ *#gpbanner • #groupimg*
+┃    ┃ 🖼️ Cambia la imagen del grupo
+
+┃ 🏷️ ᰔᩚ *#gpname • #groupname*
+┃    ┃ 🏷️ Cambia el nombre del grupo
+
+┃ 📝 ᰔᩚ *#gpdesc • #groupdesc*
+┃    ┃ 📝 Cambia la descripción
+
+┃ ⚠️ ᰔᩚ *#advertir • #warn • #warning*
+┃    ┃ ⚠️ Advierte a un usuario
+
+┃ ✅ ᰔᩚ *#unwarn • #delwarn*
+┃    ┃ ✅ Quita advertencias
+
+┃ 📋 ᰔᩚ *#advlist • #listadv*
+┃    ┃ 📋 Lista de advertidos
+
+┃ 🤖 ᰔᩚ *#bot on*
+┃    ┃ 🤖 Enciende el bot en el grupo
+
+┃ 🛑 ᰔᩚ *#bot off*
+┃    ┃ 🛑 Apaga el bot en el grupo
+
+┃ 🔇 ᰔᩚ *#mute* [mención]
+┃    ┃ 🔇 Silencia usuario
+
+┃ 🔈 ᰔᩚ *#unmute* [mención]
+┃    ┃ 🔈 Quita silencio a usuario
+
+┃ 📊 ᰔᩚ *#encuesta • #poll*
+┃    ┃ 📊 Crear encuesta
+
+┃ 🗑️ ᰔᩚ *#delete • #del*
+┃    ┃ 🗑️ Elimina mensajes
+
+┃ 👻 ᰔᩚ *#fantasmas*
+┃    ┃ 👻 Lista de inactivos
+
+┃ 🧹 ᰔᩚ *#kickfantasmas*
+┃    ┃ 🧹 Elimina inactivos
+
+┃ 🔔 ᰔᩚ *#invocar • #tagall • #todos*
+┃    ┃ 🔔 Menciona a todos
+
+┃ 😀 ᰔᩚ *#setemoji • #setemo*
+┃    ┃ 😀 Cambia emoji de invitación
+
+┃ 🌎 ᰔᩚ *#listnum • #kicknum*
+┃    ┃ 🌎 Elimina por país
+
+╰─────────────────────────────╯
 
 • :･ﾟ⊹˚• \`『 Anime 』\` •˚⊹:･ﾟ•
 
