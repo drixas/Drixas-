@@ -52,7 +52,7 @@ global.etiqueta = 'ⁱᵃᵐ|Drixas𒆜'
 global.moneda = '¥enes'
 global.welcom1 = '❍ Edita Con El Comando setwelcome'
 global.welcom2 = '❍ Edita Con El Comando setbye'
-global.banner = 'https://files.catbox.moe/2ql3iv.jpg'
+global.banner = 'https://files.catbox.moe/3ymi9y.jpg'
 global.avatar = 'https://files.catbox.moe/c7svdp.jpg'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
