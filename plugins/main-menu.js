@@ -473,37 +473,34 @@ const menuHeader =
 
 **✧･ﾟ: *✧ 𝔼𝕄𝕆ℂ𝕀𝕆ℕ𝔼𝕊 𝕐 𝔸ℂℂ𝕀𝕆ℕ𝔼𝕊 𝔸ℕ𝕀𝕄𝔼 *:･ﾟ✧**  
 
-▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰  
+▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰
 
 **💢 𝔼𝕏ℙℝ𝔼𝕊𝕀𝕆ℕ𝔼𝕊**  
 `☄️` **#angry** [@user] → Enciéndete de ira  
 `👻` **#bleh** [@user] → Lengua fuera estilo anime  
-`🌸` **#blush** [@user] → Sonrojo kawaii  
+`🌸` **#blush** [@user] → Sonrojo kawaii
+**💘 𝔸𝕄𝕆ℝ 𝕐 𝕋𝔼ℝℕ𝕌ℝ𝔸**
 
-**💘 𝔸𝕄𝕆ℝ 𝕐 𝕋𝔼ℝℕ𝕌ℝ𝔸**  
 `💞` **#hug** [@user] → Abrazo que cura el alma  
 `💋` **#kiss** [@user] → Beso que detiene el tiempo  
-`👶` **#preg** [@user] → Acción prohibida (͡° ͜ʖ ͡°)  
-
+`👶` **#preg** [@user] → Acción prohibida (͡° ͜ʖ ͡°)
 **⚡ 𝔸ℂℂ𝕀𝕆ℕ𝔼𝕊 𝔼ℙ𝕀ℂ𝔸𝕊**  
 `🗡️` **#kill** [@user] → Eliminación estilo shonen  
 `🏃` **#run** [@user] → Escape dramático  
-`👊` **#punch** [@user] → Golpe digno de protagonista  
+`👊` **#punch** [@user] → Golpe digno de protagonista
 
 **🌙 𝕄𝕆𝕄𝔼ℕ𝕋𝕆𝕊 𝔻𝔼𝕃 𝔻𝕀𝔸**  
 `🌅` **#dias** → Saludo matinal anime  
-`🌌` **#noches** → Despedida con luna llena  
-
+`🌌` **#noches** → Despedida con luna llena
 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰  
 **𝕊�𝔾𝕌𝔼𝕄𝔼 ℕ𝕌𝔼𝕍𝕆𝕊 ℂ𝕆𝕄𝔸ℕ𝔻𝕆𝕊 𝔸ℕ𝕀�𝔸𝕃𝔼𝕊!**  
-**⚡ 𝔻𝕖𝕤𝕒𝕣𝕣𝕠𝕝𝕝�𝕕𝕠 𝕡𝕠𝕣: [𝐓𝐔𝐍𝐎𝐌𝐁𝐑𝐄] ⚡**  
-
+**⚡ 𝔻𝕖𝕤𝕒𝕣𝕣𝕠𝕝𝕝�𝕕𝕠 𝕡𝕠𝕣: [𝐓𝐔𝐍𝐎𝐌𝐁𝐑𝐄] ⚡**
 ✨ 𝔼𝕤𝕥𝕚𝕝𝕠:  
 - Fuentes especiales (𝔸𝕟𝕚𝕞𝕖 𝕊𝕥𝕪𝕝𝕖)  
 - Emojis temáticos (🎌🗡️🌸)  
 - Secciones organizadas  
 - Toque de humor anime  
-- Diseño responsive para chat  
+- Diseño responsive para chat
 
 • :･ﾟ⊹˚• \`『 NSFW 』\` •˚⊹:･ﾟ•
 
