@@ -31,7 +31,6 @@ const handler = async (m, {conn, args, groupMetadata, participants, usedPrefix, 
 };
 handler.command = ['kicknum', 'listnum', 'listanum'];
 handler.group = true;
-handler.botAdmin = true;
 handler.admin = true;
 handler.fail = null;
 
