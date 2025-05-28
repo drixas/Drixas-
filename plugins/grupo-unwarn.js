@@ -15,6 +15,5 @@ const handler = async (m, {conn, text, command, usedPrefix}) => {
 handler.command = ['delwarn', 'unwarn']
 handler.group = true;
 handler.admin = true;
-handler.botAdmin = true;
 
 export default handler;
