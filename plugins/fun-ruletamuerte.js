@@ -24,7 +24,6 @@ const handler = async (m, { conn }) => {
 };
 
 handler.command = ['ruletamuerte'];
-handler.botAdmin = true
 
 export default handler;
 
