@@ -43,6 +43,5 @@ handler.tags = ['grupo'];
 handler.command = ['vaciar'];
 handler.group = true;
 handler.admin = true;
-handler.botAdmin = true;
 
 export default handler;
