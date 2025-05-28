@@ -469,77 +469,116 @@ const menuHeader =
 
 ╰─────────────────────────────╯
 
-• :･ﾟ⊹˚• \`『 Anime 』\` •˚⊹:･ﾟ•
+━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎌🌸『 𝐀𝐍𝐈𝐌𝐄 』🌸🎌
+      𝐁𝐲: @drixas ✨
+━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-❍ Comandos de reacciones de anime.
-ᰔᩚ *#angry • #enojado* + <mencion>
-> ✦ Estar enojado
-ᰔᩚ *#bite* + <mencion>
-> ✦ Muerde a alguien
-ᰔᩚ *#bleh* + <mencion>
-> ✦ Sacar la lengua
-ᰔᩚ *#blush* + <mencion>
-> ✦ Sonrojarte
-ᰔᩚ *#bored • #aburrido* + <mencion>
-> ✦ Estar aburrido
-ᰔᩚ *#cry* + <mencion>
-> ✦ Llorar por algo o alguien
-ᰔᩚ *#cuddle* + <mencion>
-> ✦ Acurrucarse
-ᰔᩚ *#dance* + <mencion>
-> ✦ Sacate los pasitos prohíbidos
-ᰔᩚ *#drunk* + <mencion>
-> ✦ Estar borracho
-ᰔᩚ *#eat • #comer* + <mencion>
-> ✦ Comer algo delicioso
-ᰔᩚ *#facepalm* + <mencion>
-> ✦ Darte una palmada en la cara
-ᰔᩚ *#happy • #feliz* + <mencion>
-> ✦ Salta de felicidad
-ᰔᩚ *#hug* + <mencion>
-> ✦ Dar un abrazo
-ᰔᩚ *#impregnate • #preg* + <mencion>
-> ✦ Embarazar a alguien
-ᰔᩚ *#kill* + <mencion>
-> ✦ Toma tu arma y mata a alguien
-ᰔᩚ *#kiss • #besar* • #kiss2 + <mencion>
-> ✦ Dar un beso
-ᰔᩚ *#laugh* + <mencion>
-> ✦ Reírte de algo o alguien
-ᰔᩚ *#lick* + <mencion>
-> ✦ Lamer a alguien
-ᰔᩚ *#love • #amor* + <mencion>
-> ✦ Sentirse enamorado
-ᰔᩚ *#pat* + <mencion>
-> ✦ Acaricia a alguien
-ᰔᩚ *#poke* + <mencion>
-> ✦ Picar a alguien
-ᰔᩚ *#pout* + <mencion>
-> ✦ Hacer pucheros
-ᰔᩚ *#punch* + <mencion>
-> ✦ Dar un puñetazo
-ᰔᩚ *#run* + <mencion>
-> ✦ Correr
-ᰔᩚ *#sad • #triste* + <mencion>
-> ✦ Expresar tristeza
-ᰔᩚ *#scared* + <mencion>
-> ✦ Estar asustado
-ᰔᩚ *#seduce* + <mencion>
-> ✦ Seducir a alguien
-ᰔᩚ *#shy • #timido* + <mencion>
-> ✦ Sentir timidez
-ᰔᩚ *#slap* + <mencion>
-> ✦ Dar una bofetada
-ᰔᩚ *#dias • #days*
-> ✦ Darle los buenos días a alguien 
-ᰔᩚ *#noches • #nights*
-> ✦ Darle las buenas noches a alguien 
-ᰔᩚ *#sleep* + <mencion>
-> ✦ Tumbarte a dormir
-ᰔᩚ *#smoke* + <mencion>
-> ✦ Fumar
-ᰔᩚ *#think* + <mencion>
-> ✦ Pensar en algo
+☁️ 𝑪𝒐𝒎𝒂𝒏𝒅𝒐𝒔 𝒅𝒆 𝐑𝐞𝐚𝐜𝐜𝐢𝐨𝐧 𝐀𝐧𝐢𝐦𝐞 ☁️
+
+➺ 💢 𝐀𝐍𝐆𝐑𝐘 • 𝐄𝐍𝐎𝐉𝐀𝐃𝐎 + <mención>
+   ⮞ Enfádate al puro estilo anime
+
+➺ 🦷 𝐁𝐈𝐓𝐄 + <mención>
+   ⮞ Muerde a alguien, ¡cuidado!
+
+➺ 👻 𝐁𝐋𝐄𝐇 + <mención>
+   ⮞ Saca la lengua como personaje anime
+
+➺ 🌸 𝐁𝐋𝐔𝐒𝐇 + <mención>
+   ⮞ Sonrojo adorable
+
+➺ 😑 𝐁𝐎𝐑𝐄𝐃 • 𝐀𝐁𝐔𝐑𝐑𝐈𝐃𝐎 + <mención>
+   ⮞ Expresa tu aburrimiento
+
+➺ 😭 𝐂𝐑𝐘 + <mención>
+   ⮞ Llora con sentimiento
+
+➺ 🫂 𝐂𝐔𝐃𝐃𝐋𝐄 + <mención>
+   ⮞ Acurrúcate con alguien especial
+
+➺ 💃 𝐃𝐀𝐍𝐂𝐄 + <mención>
+   ⮞ Demuestra tus pasos prohibidos
+
+➺ 🍶 𝐃𝐑𝐔𝐍𝐊 + <mención>
+   ⮞ Actúa borracho/a como en el anime
+
+➺ 🍙 𝐄𝐀𝐓 • 𝐂𝐎𝐌𝐄𝐑 + <mención>
+   ⮞ Come algo delicioso
+
+➺ 🤦 𝐅𝐀𝐂𝐄𝐏𝐀𝐋𝐌 + <mención>
+   ⮞ Palmada en la cara
+
+➺ 😄 𝐇𝐀𝐏𝐏𝐘 • 𝐅𝐄𝐋𝐈𝐙 + <mención>
+   ⮞ Salta de felicidad
+
+➺ 🤗 𝐇𝐔𝐆 + <mención>
+   ⮞ Abraza como en los mejores animes
+
+➺ 👶 𝐈𝐌𝐏𝐑𝐄𝐆𝐍𝐀𝐓𝐄 • 𝐏𝐑𝐄𝐆 + <mención>
+   ⮞ Acción prohibida (͡° ͜ʖ ͡°)
+
+➺ 🗡️ 𝐊𝐈𝐋𝐋 + <mención>
+   ⮞ Ataque épico estilo shonen
+
+➺ 💋 𝐊𝐈𝐒𝐒 • 𝐁𝐄𝐒𝐀𝐑 • 𝐊𝐈𝐒𝐒𝟐 + <mención>
+   ⮞ Dar un beso
+
+➺ 😂 𝐋𝐀𝐔𝐆𝐇 + <mención>
+   ⮞ Reírte de algo o alguien
+
+➺ 👅 𝐋𝐈𝐂𝐊 + <mención>
+   ⮞ Lamer a alguien
+
+➺ 💖 𝐋𝐎𝐕𝐄 • 𝐀𝐌𝐎𝐑 + <mención>
+   ⮞ Sentirse enamorado
+
+➺ 🫳 𝐏𝐀𝐓 + <mención>
+   ⮞ Acaricia a alguien
+
+➺ 👉 𝐏𝐎𝐊𝐄 + <mención>
+   ⮞ Picar a alguien
+
+➺ 😗 𝐏𝐎𝐔𝐓 + <mención>
+   ⮞ Hacer pucheros
+
+➺ 👊 𝐏𝐔𝐍𝐂𝐇 + <mención>
+   ⮞ Dar un puñetazo
+
+➺ 🏃 𝐑𝐔𝐍 + <mención>
+   ⮞ Correr
+
+➺ 😢 𝐒𝐀𝐃 • 𝐓𝐑𝐈𝐒𝐓𝐄 + <mención>
+   ⮞ Expresar tristeza
+
+➺ 😱 𝐒𝐂𝐀𝐑𝐄𝐃 + <mención>
+   ⮞ Estar asustado
+
+➺ 😏 𝐒𝐄𝐃𝐔𝐂𝐄 + <mención>
+   ⮞ Seducir a alguien
+
+➺ 🫣 𝐒𝐇𝐘 • 𝐓𝐈𝐌𝐈𝐃𝐎 + <mención>
+   ⮞ Sentir timidez
+
+➺ 👋 𝐒𝐋𝐀𝐏 + <mención>
+   ⮞ Dar una bofetada
+
+➺ 🌅 𝐃𝐈𝐀𝐒 • 𝐃𝐀𝐘𝐒
+   ⮞ Darle los buenos días a alguien
+
+➺ 🌌 𝐍𝐎𝐂𝐇𝐄𝐒 • 𝐍𝐈𝐆𝐇𝐓𝐒
+   ⮞ Darle las buenas noches a alguien
+
+➺ 💤 𝐒𝐋𝐄𝐄𝐏 + <mención>
+   ⮞ Tumbarte a dormir
+
+➺ 🚬 𝐒𝐌𝐎𝐊𝐄 + <mención>
+   ⮞ Fumar
+
+➺ 🤔 𝐓𝐇𝐈𝐍𝐊 + <mención>
+   ⮞ Pensar en algo
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 • :･ﾟ⊹˚• \`『 NSFW 』\` •˚⊹:･ﾟ•
 
