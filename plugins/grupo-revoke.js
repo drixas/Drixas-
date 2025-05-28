@@ -10,6 +10,5 @@ handler.tags = ['grupo']
 handler.command = ['revoke', 'restablecer']
 handler.group = true
 handler.admin = true
-handler.botAdmin = true
 
 export default handler
