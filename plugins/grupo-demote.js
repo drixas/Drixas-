@@ -31,7 +31,6 @@ handler.tags = ['grupo']
 handler.command = ['demote','quitarpija', 'degradar']
 handler.group = true
 handler.admin = true
-handler.botAdmin = true
 handler.fail = null
 
 export default handler
