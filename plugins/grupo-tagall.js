@@ -56,6 +56,7 @@ const handler = async (m, { isOwner, isAdmin, conn, text, participants, args }) 
       '599': '🇨🇼',
       '504': '🇭🇳',
       '505': '🇳🇮',
+      '51' : '🇵🇪',
 
       // Europa
       '30': '🇬🇷',
@@ -151,6 +152,7 @@ const handler = async (m, { isOwner, isAdmin, conn, text, participants, args }) 
       '297': '🇦🇼',
       '298': '🇫🇴',
       '299': '🇬🇱',
+      ' 7 ': '🇷🇺',
   };
 
   // Función para obtener la bandera según el número
