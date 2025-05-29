@@ -50,7 +50,7 @@ let handler = async (m, { conn, args }) => {
       },
       forwardingScore: 999,
       externalAdReply: {
-        title: `🌷 𝑴𝒊𝒌𝒖 𝑩𝒐𝒕 🌷`,
+        title: `♡ 𝚃𝚜𝚞𝚔𝚊𝚜𝚊 ♡`,
         body: textbot,
         thumbnailUrl: banner,
         sourceUrl: redes,
