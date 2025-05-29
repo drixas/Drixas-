@@ -1,6 +1,6 @@
 const handler = async (m, { isOwner, isAdmin, conn, text, participants, args }) => {
   let chat = global.db.data.chats[m.chat];
-  let emoji = chat.emojiTag || '👹';
+  let emoji = chat.emojiTag || '♡︰';
 
   // Validar que sea admin o owner
   if (!(isAdmin || isOwner)) {
