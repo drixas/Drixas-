@@ -66,7 +66,7 @@ global.waittt = '❍ Espera un momento, soy lenta...';
 global.waitttt = '❍ Espera un momento, soy lenta...';
 
 var canal = 'https://whatsapp.com/channel/0029VbAqmLQHrDZm0YXgqB3r'  
-var comunidad = 'https://chat.whatsapp.com/I0dMp2fEle7L6RaWBmwlAa'
+var comunidad = 'https://chat.whatsapp.com/KO7ZxQDHO0K6kEV0Ax65f9'
 var git = 'https://github.com/Drixas--drixas'
 var github = 'https://github.com/drixas/Drixas-' 
 let correo = 'thekingdestroy507@gmail.com'
