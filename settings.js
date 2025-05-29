@@ -31,16 +31,16 @@ global.prems = []
 global.libreria = 'Baileys'
 global.baileys = 'V 6.7.16' 
 global.vs = '2.2.0'
-global.nameqr = 'Drixas-bot'
-global.namebot = 'Drixas-bot'
+global.nameqr = '♡𝚃𝚜𝚞𝚔𝚊𝚜𝚊♡'
+global.namebot = '♡𝚃𝚜𝚞𝚔𝚊𝚜𝚊♡'
 global.sessions = 'Sessions'
 global.jadi = 'JadiBots' 
 global.yukiJadibts = true
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.packname = 'Drixas-bot'
-global.botname = 'Drixas-ᑲ᥆𝗍'
+global.packname = '♡𝚃𝚜𝚞𝚔𝚊𝚜𝚊♡'
+global.botname = '♡𝚃𝚜𝚞𝚔𝚊𝚜𝚊♡'
 global.wm = 'Drixas-bot'
 global.author = 'Drixas'
 global.dev = 'drixas-bot• Powered  ᑲᥡ ⁱᵃᵐdrx'
