@@ -25,13 +25,14 @@ let handler = async (m, { conn, args }) => {
 │⏰ Activa: ${uptime}
 │🌸 Comunidad: ${totalreg}
 │🧩 Comandos: ${totalCommands}
-│🔗 \`Conexión:\` Baileys
+│🔗 \`Conexión: Baileys
 ╰───────────────♡
 
  ✦｡˚❀『 Info-Bot 』❀˚｡✦
  
 ❍ Comandos para ver estado e información de la Bot.
-ᰔᩚ *#help • #menu*
+
+ᰔᩚ *\`#help\` • #menu*
 > ✦ Ver la lista de comandos de la Bot.
 ᰔᩚ *#uptime • #runtime*
 > ✦ Ver tiempo activo o en linea de la Bot.
