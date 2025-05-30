@@ -19,13 +19,13 @@ let handler = async (m, { conn, args }) => {
 ╰•˚ ₊˚୨୧˚₊˚•╯
 
 ╭─♡︰𝑰𝒏𝒇𝒐 𝒅𝒆𝒍 𝒅𝒊́𝒂
-│💌 Usuario: @${userId.split('@')[0]}
-│🎀 Modo: Público
-│👑 Bot: ${(conn.user.jid == global.conn.user.jid ? 'Principal' : 'Sub Bot')}
-│⏰ Activa: ${uptime}
-│🌸 Comunidad: ${totalreg}
-│🧩 Comandos: ${totalCommands}
-│🔗 \`Conexión: Baileys
+│❀ Usuario: @${userId.split('@')[0]}
+│❁ Modo: Público
+│❃ Bot: ${(conn.user.jid == global.conn.user.jid ? 'Principal' : 'Sub Bot')}
+│✾ Activa: ${uptime}
+│✿ Comunidad: ${totalreg}
+│❈ Comandos: ${totalCommands}
+│❉ Conexión: Baileys
 ╰───────────────♡
 
  ✦｡˚❀『 Info-Bot 』❀˚｡✦
