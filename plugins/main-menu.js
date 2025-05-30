@@ -28,7 +28,8 @@ let handler = async (m, { conn, args }) => {
 │🔗 \`Conexión:\` Baileys
 ╰───────────────♡
 
-  ♡︰𝐈𝐧𝐟𝐨-𝐁𝐨𝐭
+ ✦｡˚❀『 Info-Bot 』❀˚｡✦
+ 
 ❍ Comandos para ver estado e información de la Bot.
 ᰔᩚ *#help • #menu*
 > ✦ Ver la lista de comandos de la Bot.
