@@ -143,6 +143,28 @@ let handler = async (m, { conn, args }) => {
 
 \`✦｡˚❀『 Stickers 』❀˚｡✦\`
 
+❍ Comandos para creaciones de stickers etc.
+ִ ࣪𖤐 *#sticker • #s*
+> ✮ Crea stickers de (imagen/video)
+ִ ࣪𖤐 *#setmeta*
+> ✮ Estable un pack y autor para los stickers.
+ִ ࣪𖤐 *#delmeta*
+> ✮ Elimina tu pack de stickers.
+ִ ࣪𖤐 *#pfp • #getpic*
+> ✮ Obtén la foto de perfil de un usuario.
+ִ ࣪𖤐 *#qc*
+> ✮ Crea stickers con texto o de un usuario.
+ִ ࣪𖤐 *#toimg • #img*
+> ✮ Convierte stickers en imagen.
+ִ ࣪𖤐 *#brat • #ttp • #attp*︎ 
+> ✮ Crea stickers con texto.
+ִ ࣪𖤐 *#emojimix*
+> ✮ Fuciona 2 emojis para crear un sticker.
+ִ ࣪𖤐 *#wm*
+> ✮ Cambia el nombre de los stickers.
+
+\`✦｡˚❀『 Herramientas 』❀˚｡✦\`
+
 
 
 `.trim();
