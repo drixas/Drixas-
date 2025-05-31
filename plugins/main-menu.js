@@ -71,7 +71,7 @@ let handler = async (m, { conn, args }) => {
 ᰔᩚ *#editautoresponder*
 > ✦ Configurar un Prompt personalizado de la Bot.
 
-✦｡˚❀『 Buscadores 』❀˚｡✦
+\`✦｡˚❀『 Buscadores 』❀˚｡✦\`
  
 
 ❍ Comandos para realizar búsquedas en distintas plataformas.
@@ -99,6 +99,52 @@ let handler = async (m, { conn, args }) => {
 > ✮ Buscador de información de anime/manga.
 ִ ࣪𖤐 *#npmjs*
 > ✮ Buscandor de npmjs.
+
+
+\`✦｡˚❀『 Descargas 』❀˚｡✦\`
+
+❍ Comandos de descargas para varios archivos.
+ִ ࣪𖤐 *#tiktok • #tt*
+> ✮ Descarga videos de TikTok.
+ִ ࣪𖤐 *#mediafire • #mf*
+> ✮ Descargar un archivo de MediaFire.
+ִ ࣪𖤐 *#pinvid • #pinvideo* + [enlace]
+> ✮ Descargar vídeos de Pinterest. 
+ִ ࣪𖤐 *#mega • #mg* + [enlace]
+> ✮ Descargar un archivo de MEGA.
+ִ ࣪𖤐 *#play • #play2*
+> ✮ Descarga música/video de YouTube.
+ִ ࣪𖤐 *#ytmp3 • #ytmp4*
+> ✮ Descarga música/video de YouTube mediante url.
+ִ ࣪𖤐 *#fb • #facebook*
+> ✮ Descarga videos de Facebook.
+ִ ࣪𖤐 *#twitter • #x* + [Link]
+> ✮ Descargar un video de Twitter/X
+ִ ࣪𖤐 *#ig • #instagram*
+> ✮ Descarga contenido de Instagram.
+ִ ࣪𖤐 *#tts • #tiktoks* + [busqueda]
+> ✮ Buscar videos de tiktok 
+ִ ࣪𖤐 *#terabox • #tb* + [enlace]
+> ✮ Descargar archivos por Terabox.
+ִ ࣪𖤐 *#gdrive • #drive* + [enlace]
+> ✮ Descargar archivos por Google Drive.
+ִ ࣪𖤐 *#ttimg • #ttmp3* + <url>
+> ✮ Descarga fotos/audios de tiktok. 
+ִ ࣪𖤐 *#gitclone* + <url> 
+> ✮ Descarga un repositorio de github.
+ִ ࣪𖤐 *#apk • #modapk*
+> ✮ Descarga un apk de Aptoide.
+ִ ࣪𖤐 *#tiktokrandom • #ttrandom*
+> ✮ Descarga un video aleatorio de tiktok.
+ִ ࣪𖤐 *#npmdl • #npmdownloader*
+> ✮ Descarga paquetes de NPMJs.
+ִ ࣪𖤐 *#animelinks • #animedl*
+> ✮ Descarga Links disponibles de descargas.
+
+\`✦｡˚❀『 Stickers 』❀˚｡✦\`
+
+
+
 `.trim();
 
   await conn.sendMessage(m.chat, {
