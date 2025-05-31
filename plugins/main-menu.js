@@ -75,30 +75,30 @@ let handler = async (m, { conn, args }) => {
  
 
 ❍ Comandos para realizar búsquedas en distintas plataformas.
-ִ ࣪𖤐 *#tiktoksearch • #tiktoks*
-> ✮ Buscador de videos de tiktok.
-ִ ࣪𖤐 *#tweetposts*
-> ✮ Buscador de posts de Twitter/X.
-ִ ࣪𖤐 *#ytsearch • #yts*
-> ✮ Realiza búsquedas de Youtube.
-ִ ࣪𖤐 *#githubsearch*
-> ✮ Buscador de usuarios de GitHub.
-ִ ࣪𖤐 *#cuevana • #cuevanasearch*
-> ✮ Buscador de películas/series por Cuevana.
-ִ ࣪𖤐 *#google*
-> ✮ Realiza búsquedas por Google.
-ִ ࣪𖤐 *#pin • #pinterest*
-> ✮ Buscador de imagenes de Pinterest.
-ִ ࣪𖤐 *#imagen • #image*
-> ✮ buscador de imagenes de Google.
-ִ ࣪𖤐 *#animesearch • #animess*
-> ✮ Buscador de animes de tioanime.
-ִ ࣪𖤐 *#animei • #animeinfo*
-> ✮ Buscador de capítulos de #animesearch.
-ִ ࣪𖤐 *#infoanime*
-> ✮ Buscador de información de anime/manga.
-ִ ࣪𖤐 *#npmjs*
-> ✮ Buscandor de npmjs.
+✾ *#tiktoksearch • #tiktoks*
+> ✦ Buscador de videos de tiktok.
+✾ *#tweetposts*
+> ✦ Buscador de posts de Twitter/X.
+✾ *#ytsearch • #yts*
+> ✦ Realiza búsquedas de Youtube.
+✾ *#githubsearch*
+> ✦ Buscador de usuarios de GitHub.
+✾ *#cuevana • #cuevanasearch*
+> ✦ Buscador de películas/series por Cuevana.
+✾ *#google*
+> ✦ Realiza búsquedas por Google.
+✾ *#pin • #pinterest*
+> ✦ Buscador de imagenes de Pinterest.
+✾ *#imagen • #image*
+> ✦ buscador de imagenes de Google.
+✾ *#animesearch • #animess*
+> ✦ Buscador de animes de tioanime.
+✾ *#animei • #animeinfo*
+> ✦ Buscador de capítulos de #animesearch.
+✾ *#infoanime*
+> ✦ Buscador de información de anime/manga.
+✾ *#npmjs*
+> ✦ Buscandor de npmjs.
 
 
 \`✦｡˚❀『 Descargas 』❀˚｡✦\`
