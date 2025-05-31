@@ -28,11 +28,11 @@ let handler = async (m, { conn, args }) => {
 │❉ Conexión: Baileys
 ╰───────────────♡
 
- ✦｡˚❀『 Info-Bot 』❀˚｡✦
+ \`✦｡˚❀『 Info-Bot 』❀˚｡✦`\
  
 ❍ Comandos para ver estado e información de la Bot.
 
-ᰔᩚ *\`#help\` • #menu*
+ᰔᩚ *#help • #menu*
 > ✦ Ver la lista de comandos de la Bot.
 ᰔᩚ *#uptime • #runtime*
 > ✦ Ver tiempo activo o en linea de la Bot.
@@ -71,7 +71,34 @@ let handler = async (m, { conn, args }) => {
 ᰔᩚ *#editautoresponder*
 > ✦ Configurar un Prompt personalizado de la Bot.
 
-• :･ﾟ⊹˚• \`『 Buscadores 』\` •˚⊹:･ﾟ•
+✦｡˚❀『 Buscadores 』❀˚｡✦
+ 
+
+❍ Comandos para realizar búsquedas en distintas plataformas.
+ִ ࣪𖤐 *#tiktoksearch • #tiktoks*
+> ✮ Buscador de videos de tiktok.
+ִ ࣪𖤐 *#tweetposts*
+> ✮ Buscador de posts de Twitter/X.
+ִ ࣪𖤐 *#ytsearch • #yts*
+> ✮ Realiza búsquedas de Youtube.
+ִ ࣪𖤐 *#githubsearch*
+> ✮ Buscador de usuarios de GitHub.
+ִ ࣪𖤐 *#cuevana • #cuevanasearch*
+> ✮ Buscador de películas/series por Cuevana.
+ִ ࣪𖤐 *#google*
+> ✮ Realiza búsquedas por Google.
+ִ ࣪𖤐 *#pin • #pinterest*
+> ✮ Buscador de imagenes de Pinterest.
+ִ ࣪𖤐 *#imagen • #image*
+> ✮ buscador de imagenes de Google.
+ִ ࣪𖤐 *#animesearch • #animess*
+> ✮ Buscador de animes de tioanime.
+ִ ࣪𖤐 *#animei • #animeinfo*
+> ✮ Buscador de capítulos de #animesearch.
+ִ ࣪𖤐 *#infoanime*
+> ✮ Buscador de información de anime/manga.
+ִ ࣪𖤐 *#npmjs*
+> ✮ Buscandor de npmjs.
 `.trim();
 
   await conn.sendMessage(m.chat, {
