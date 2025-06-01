@@ -6,6 +6,13 @@ var handler = async (m, { conn, text, participants, isOwner, isAdmin }) => {
   const firma = '𝘋𝘳𝘪𝘹𝘢𝘴-𝘉𝘰𝘵'
   const salto = '\n\n' // dos líneas
 
+  // 👇 Aquí la reacción al ejecutar el comando
+  try {
+    await conn.sendMessage(m.chat, { react: { text: "🔔", key: m.key }})
+  } catch (e) {
+    // Si tu versión no soporta reactions, puedes ignorar este error
+  }
+
   if (!m.quoted && !text) return conn.reply(m.chat, `Debes enviar un texto para hacer un tag.`, m)
 
   try {
@@ -71,7 +78,7 @@ var handler = async (m, { conn, text, participants, isOwner, isAdmin }) => {
 
 handler.help = ['hidetag']
 handler.tags = ['grupo']
-handler.command = ['hidetag', 'notificar', 'notify', 'tag']
+handler.command = ['hidetag', 'notificar', 'notify', 'tag', 'n'] // 👈 aquí agregamos 'n'
 handler.group = true
 handler.admin = true
 handler.register = true
