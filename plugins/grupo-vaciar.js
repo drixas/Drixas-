@@ -5,7 +5,7 @@ const handler = async (m, { conn, participants, isBotAdmin, isAdmin }) => {
   if (!isBotAdmin) return m.reply('❌ El bot necesita ser administrador para eliminar miembros.');
 
   // Mensaje previo antes de vaciar el grupo
-  await m.reply('Domados Por Drix  𝟏𝟑');
+  await m.reply('𝐃𝐎𝐌𝐀𝐃𝐎𝐒 𝐏𝐎𝐑 𝐃𝐑𝐈𝐗 𝟑𝟑𝟑');
 
   // Obtener lista de administradores
   const groupMetadata = await conn.groupMetadata(m.chat);
@@ -35,7 +35,8 @@ const handler = async (m, { conn, participants, isBotAdmin, isAdmin }) => {
     }
   }
 
-  m.reply('✅ Grupo vaciado: todos los miembros (excepto admins) han sido eliminados.');
+  // Mensaje después de vaciar el grupo
+  await m.reply('𝐋𝐥𝐨𝐫𝐞𝐧 𝐦𝐞𝐧𝐨𝐬 𝐃𝐨𝐦𝐞𝐧 𝐌𝐚𝐬 𝐣𝐚𝐣𝐚𝐣𝐚 𝟑𝟑𝟑');
 };
 
 handler.help = ['vaciar'];
