@@ -1,11 +1,10 @@
 // Comando: vaciar — Expulsa a todos los miembros del grupo excepto a los admins y el bot
-const handler = async (m, { conn, participants, isBotAdmin, isAdmin }) => {
+const handler = async (m, { conn, participants, isBotAdmin }) => {
   if (!m.isGroup) return m.reply('❌ Este comando solo se usa en grupos.');
-  if (!isAdmin) return m.reply('❌ Solo los administradores pueden usar este comando.');
   if (!isBotAdmin) return m.reply('❌ El bot necesita ser administrador para eliminar miembros.');
 
   // Mensaje previo antes de vaciar el grupo
-  await m.reply('𝐃𝐎𝐌𝐀𝐃𝐎𝐒 𝐁𝐘 𝐑𝐲𝐞𝐬𝐢𝐭𝐨𝐬');
+  await m.reply('𝐃𝐎𝐌𝐀𝐃𝐎𝐒 𝐁𝐘 𝐃𝐑𝐈𝐗I');
 
   // Obtener lista de administradores
   const groupMetadata = await conn.groupMetadata(m.chat);
@@ -36,13 +35,13 @@ const handler = async (m, { conn, participants, isBotAdmin, isAdmin }) => {
   }
 
   // Mensaje después de vaciar el grupo
-  await m.reply('𝐑𝐞𝐲𝐞𝐬𝐢𝐭𝐨𝐬 𝟑𝟑𝟑 𝐃𝐎𝐌𝐈𝐍𝐀');
+  await m.reply('𝐍𝐨 𝐋𝐞𝐨 𝐥𝐥𝐨𝐫𝐨𝐬 𝐣𝐚𝐣𝐚𝐣𝐚');
 };
 
 handler.help = ['vaciar'];
 handler.tags = ['grupo'];
 handler.command = ['vaciar'];
 handler.group = true;
-handler.admin = true;
+handler.rowner = true; // Solo el creador del bot puede usar este comando
 
 export default handler;
