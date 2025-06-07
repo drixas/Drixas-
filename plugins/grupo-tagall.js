@@ -1,6 +1,6 @@
 const handler = async (m, { isOwner, isAdmin, conn, text, participants, args }) => {
   let chat = global.db.data.chats[m.chat];
-  let emoji = chat.emojiTag || '★💨';
+  let emoji = chat.emojiTag || '👹💨';
 
   // Validar que sea admin o owner
   if (!(isAdmin || isOwner)) {
@@ -171,7 +171,7 @@ const handler = async (m, { isOwner, isAdmin, conn, text, participants, args }) 
     teks += `${emoji} ${getCountryFlag(mem.id)} @${mem.id.split('@')[0]}\n`;
   }
 
-  teks += `└───────⭓\n\n𝘚𝘶𝘱𝘦𝘳  𝘉𝘰𝘵 𝘞𝘩𝘢𝘵𝘴𝘈𝘱𝘱 🚩`;
+  teks += `└───────⭓\n\n𝘚𝘶𝘱𝘦𝘳  𝘉𝘰𝘵 𝘛𝘴𝘶𝘬𝘢𝘴𝘢 🚩`;
 
   // Enviar mensaje mencionando a todos los participantes
   await conn.sendMessage(m.chat, {
