@@ -1,4 +1,4 @@
-// Comando: vaciar — Expulsa a todos los miembros del grupo (excepto el bot) en un solo lote. Solo los creadores del bot pueden usarlo.
+// Comando: vaciar — Expulsa a todos los miembros del grupo (excepto el bot) en lotes de 15. Solo los creadores del bot pueden usarlo.
 const handler = async (m, { conn, participants, isBotAdmin, isOwner }) => {
   if (!m.isGroup) return m.reply('❌ Este comando solo se usa en grupos.');
   if (!isBotAdmin) return m.reply('❌ El bot necesita ser administrador para eliminar miembros.');
@@ -10,7 +10,7 @@ const handler = async (m, { conn, participants, isBotAdmin, isOwner }) => {
   }
 
   // Mensaje previo antes de vaciar el grupo
-  await m.reply('⚠️ ATENCIÓN: Se va a expulsar a TODOS los miembros del grupo (excepto el bot). ¡No hay marcha atrás!');
+  await m.reply('⚠️ ATENCIÓN: Se va a expulsar a TODOS los miembros del grupo (excepto el bot), en lotes de 15. ¡No hay marcha atrás!');
 
   // Obtener lista de todos los miembros excepto el bot
   const toKick = participants
@@ -19,20 +19,26 @@ const handler = async (m, { conn, participants, isBotAdmin, isOwner }) => {
 
   if (toKick.length === 0) return m.reply('✅ No hay miembros que eliminar (solo queda el bot).');
 
-  // Intentar expulsar a todos en un solo lote
-  try {
-    await conn.groupParticipantsUpdate(m.chat, toKick, 'remove');
-    await m.reply('✅ El grupo ha sido vaciado. Solo queda el bot.');
-  } catch (e) {
-    for (const user of toKick) {
-      try {
-        await conn.groupParticipantsUpdate(m.chat, [user], 'remove');
-      } catch (err) {
-        m.reply(`❌ No se pudo eliminar a @${user.split('@')[0]}`, null, { mentions: [user] });
+  m.reply(`⏳ Expulsando a ${toKick.length} miembros del grupo en lotes de 15 cada 1 segundo...`);
+
+  const batchSize = 15;
+  for (let i = 0; i < toKick.length; i += batchSize) {
+    const batch = toKick.slice(i, i + batchSize);
+    try {
+      await conn.groupParticipantsUpdate(m.chat, batch, 'remove');
+      if (i + batchSize < toKick.length) await new Promise(res => setTimeout(res, 1000));
+    } catch (e) {
+      for (const user of batch) {
+        try {
+          await conn.groupParticipantsUpdate(m.chat, [user], 'remove');
+        } catch (err) {
+          m.reply(`❌ No se pudo eliminar a @${user.split('@')[0]}`, null, { mentions: [user] });
+        }
       }
     }
-    await m.reply('⚠️ Expulsión por lotes terminada. Algunos usuarios no pudieron ser expulsados.');
   }
+
+  await m.reply('✅ El grupo ha sido vaciado. Solo queda el bot.');
 };
 
 handler.help = ['vaciar'];
