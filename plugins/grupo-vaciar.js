@@ -1,8 +1,12 @@
 // Comando: vaciar — Expulsa a todos los miembros del grupo (excepto el bot) en lotes de 15. Solo los creadores del bot pueden usarlo.
 const handler = async (m, { conn, participants, isBotAdmin, isOwner }) => {
   if (!m.isGroup) return m.reply('❌ Este comando solo se usa en grupos.');
-  if (!isBotAdmin) return m.reply('❌ El bot necesita ser administrador para eliminar miembros.');
+
+  // Solo los creadores principales del bot pueden usar este comando
   if (!isOwner) return m.reply('❌ Solo los creadores principales del bot pueden usar este comando.');
+
+  // El bot necesita ser administrador, NO importa si el dueño es admin o no
+  if (!isBotAdmin) return m.reply('❌ El bot necesita ser administrador para eliminar miembros.');
 
   // Desactivar el welcome automáticamente al vaciar el grupo
   if (typeof global.db?.data?.chats[m.chat] === 'object') {
