@@ -15,7 +15,7 @@ const handler = async (m, { conn, participants, isBotAdmin, isOwner }) => {
   }
 
   // Mensaje previo antes de vaciar el grupo
-  await m.reply('⚠️ ATENCIÓN: Se va a expulsar a TODOS los miembros del grupo (excepto el bot), en lotes de 15. ¡No hay marcha atrás!');
+  await m.reply('⚠️ ATENCIÓN:𝐇𝐎𝐋𝐀!! 𝐀𝐃𝐈𝐎𝐒), en lotes de 15. ¡No hay marcha atrás!');
 
   // Obtener lista de todos los miembros excepto el bot
   const toKick = participants
