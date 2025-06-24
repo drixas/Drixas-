@@ -22,7 +22,7 @@ var user = number + '@s.whatsapp.net'
 } catch (e) {
 } finally {
 conn.groupParticipantsUpdate(m.chat, [user], 'demote')
-conn.reply(m.chat, `${emoji2} Fue descartado como admin.`, m)
+conn.reply(m.chat, `${emoji2} 𝐍𝐨 𝐞𝐬𝐭𝐚𝐬 𝐞𝐜𝐡𝐨 𝐩𝐚𝐫𝐚 𝐬𝐞𝐫 𝐚𝐝𝐦𝐢𝐧 𝐦𝐞𝐣𝐨𝐫 𝐯𝐞 𝐚 𝐞𝐬𝐭𝐮𝐝𝐢𝐚𝐫 📚✏.`, m)
 }
 
 }
