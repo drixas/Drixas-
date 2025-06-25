@@ -13,7 +13,7 @@ let handler = async (m, { conn, args }) => {
 
   let txt = `
   𝐄𝐧 𝐪𝐮𝐞 𝐭𝐞 𝐩𝐮𝐞𝐝𝐨 𝐚𝐲𝐮𝐝𝐚𝐫~ @${userId.split('@')[0]}
-  Soy *${botname}*,𝐓𝐔 𝐁𝐎𝐓 𝐏𝐑𝐈𝐌𝐄🔥
+  Soy *${botname}*, 𝐓𝐔 𝐁𝐎𝐓 𝐏𝐑𝐈𝐌𝐄🔥
   ¿𝐍𝐎𝐒 𝐃𝐈𝐕𝐄𝐑𝐓𝐈𝐌𝐎𝐒 𝐔𝐍 𝐑𝐀𝐓𝐎? 
 
 ╭─♡︰𝑰𝒏𝒇𝒐 𝒅𝒆𝒍 𝒅𝒊́𝒂
