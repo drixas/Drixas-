@@ -35,8 +35,8 @@ global.vs = '2.2.0'
 global.nameqr = '♡𝚃𝚜𝚞𝚔𝚊𝚜𝚊♡'
 global.namebot = '♡𝚃𝚜𝚞𝚔𝚊𝚜𝚊♡'
 global.sessions = 'Sessions'
-global.jadibot = 'JadiBots'
-global.yukijadibts
+global.jadi = 'JadiBots'
+global.yukijadibts = true
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.packname = '♡𝚃𝚜𝚞𝚔𝚊𝚜𝚊♡'
