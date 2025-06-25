@@ -41,7 +41,7 @@ global.yukiJadibts = true
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.packname = '𝐃𝐑𝐈𝐗𝐀𝐒-𝐁𝐎𝐓'
-global.botname = '♡𝐃𝐑𝐈𝐗𝐀𝐒-𝐁𝐎𝐓♡'
+global.botname = '𝐃𝐑𝐈𝐗𝐀𝐒-𝐁𝐎𝐓'
 global.wm = 'Drixas-bot'
 global.author = 'Drixas'
 global.dev = 'drixas-bot• Powered  𝐃𝐑𝐈𝐗𝐀𝐒-𝐁𝐎𝐓'
