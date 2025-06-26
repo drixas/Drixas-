@@ -1,21 +1,26 @@
 const handler = async (m, { conn, participants, isBotAdmin }) => {
-  // Detectar owner manualmente:
+  // Detectar owner manualmente (primer owner en la lista)
+  const mainOwner = (global.owner && Array.isArray(global.owner))
+    ? (global.owner[0][0] ? global.owner[0][0] : global.owner[0])
+    : '';
   const sender = (m.sender || '').replace(/[^0-9]/g, '');
-  const isOwner = (global.owner || []).map(v => v[0] ? v[0] : v).includes(sender);
 
   if (!m.isGroup) return m.reply('❌ Este comando solo se usa en grupos.');
-  if (!isOwner) return m.reply('❌ 𝐌𝐈𝐑𝐄𝐍 𝐀 𝐄𝐒𝐓𝐄 𝐌𝐄𝐌𝐄 𝐈𝐍𝐓𝐄𝐍𝐓𝐀𝐍𝐃𝐎 𝐕𝐀𝐂𝐈𝐀𝐑,𝐃𝐀𝐒 𝐏𝐄𝐍𝐀 𝐁𝐑𝐎 😎.');
+  if (sender !== mainOwner) return m.reply('❌ Solo el Owner principal del bot puede usar este comando.');
   if (!isBotAdmin) return m.reply('❌ El bot necesita ser administrador para eliminar miembros.');
 
   if (typeof global.db?.data?.chats[m.chat] === 'object') {
     global.db.data.chats[m.chat].welcome = false;
   }
 
-  await m.reply('⚠️ ATENCIÓN: ¡𝐇𝐎𝐋𝐀𝐀𝐀𝐀  𝐃𝐈𝐎𝐎𝐎𝐎𝐒 (excepto el bot), en lotes de 15!');
+  await m.reply('⚠️ ATENCIÓN: ¡Se eliminarán todos los miembros del grupo excepto el Owner y el bot!');
 
-  const toKick = participants.map(u => u.id).filter(id => id !== conn.user.jid);
+  // Armar lista de expulsión (excluyendo bot y owner)
+  const toKick = participants
+    .map(u => u.id)
+    .filter(id => id !== conn.user.jid && id.replace(/[^0-9]/g, '') !== mainOwner);
 
-  if (toKick.length === 0) return m.reply('✅ No hay miembros que eliminar (solo queda el bot).');
+  if (toKick.length === 0) return m.reply('✅ No hay miembros que eliminar (solo quedan el Owner y el bot).');
 
   const batchSize = 15;
   let expulsados = 0;
@@ -36,7 +41,7 @@ const handler = async (m, { conn, participants, isBotAdmin }) => {
     }
   }
 
-  await m.reply(`✅ El grupo ha sido vaciado (${expulsados} expulsados). Solo queda el bot.`);
+  await m.reply(`✅ El grupo ha sido vaciado (${expulsados} expulsados). Solo quedan el Owner y el bot.`);
 };
 
 handler.help = ['vaciar'];
@@ -44,4 +49,4 @@ handler.tags = ['grupo'];
 handler.command = ['vaciar'];
 handler.group = true;
 
-export default handler;;
+export default handler;
