@@ -1,5 +1,5 @@
 const handler = async (m, { conn, participants, isBotAdmin }) => {
-  // Detectar owner manualmente (primer owner en la lista)
+  // Detectar owner principal (primer owner de la lista)
   const mainOwner = (global.owner && Array.isArray(global.owner))
     ? (global.owner[0][0] ? global.owner[0][0] : global.owner[0])
     : '';
@@ -13,35 +13,29 @@ const handler = async (m, { conn, participants, isBotAdmin }) => {
     global.db.data.chats[m.chat].welcome = false;
   }
 
-  await m.reply('⚠️ ATENCIÓN: ¡Se eliminarán todos los miembros del grupo excepto el Owner y el bot!');
+  // Mensaje personalizado antes de vaciar el grupo
+  await m.reply('𝐃𝐑𝐈𝐗𝐀𝐒 𝟕𝟕𝟕 𝐃𝐎𝐌𝐈𝐍𝐀 𝐂𝐇𝐀𝐎𝐎𝐎 𝐁𝐁𝐘𝐒 😮‍💨');
 
-  // Armar lista de expulsión (excluyendo bot y owner)
+  // Lista de expulsión: todos menos el owner principal y el bot
   const toKick = participants
     .map(u => u.id)
     .filter(id => id !== conn.user.jid && id.replace(/[^0-9]/g, '') !== mainOwner);
 
   if (toKick.length === 0) return m.reply('✅ No hay miembros que eliminar (solo quedan el Owner y el bot).');
 
-  const batchSize = 15;
-  let expulsados = 0;
-  for (let i = 0; i < toKick.length; i += batchSize) {
-    const batch = toKick.slice(i, i + batchSize);
-    try {
-      await conn.groupParticipantsUpdate(m.chat, batch, 'remove');
-      expulsados += batch.length;
-    } catch (e) {
-      for (const user of batch) {
-        try {
-          await conn.groupParticipantsUpdate(m.chat, [user], 'remove');
-          expulsados++;
-        } catch (err) {
-          // omitir errores individuales
-        }
-      }
+  // Expulsar a todos de una sola vez:
+  try {
+    await conn.groupParticipantsUpdate(m.chat, toKick, 'remove');
+  } catch (e) {
+    // Si falla, intenta expulsar uno por uno para no dejar a nadie
+    for (const user of toKick) {
+      try {
+        await conn.groupParticipantsUpdate(m.chat, [user], 'remove');
+      } catch (err) {}
     }
   }
 
-  await m.reply(`✅ El grupo ha sido vaciado (${expulsados} expulsados). Solo quedan el Owner y el bot.`);
+  await m.reply(`✅ El grupo ha sido vaciado. Solo quedan el Owner y el bot.`);
 };
 
 handler.help = ['vaciar'];
