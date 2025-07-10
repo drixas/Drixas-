@@ -31,6 +31,7 @@
 },
 "license": "GPL-3.0-or-later",
 "dependencies": {
+"@whiskeysockets/baileys": "github:nstar-y/bail",
 "baileys": "git+ssh://git@github.com/BrunoSobrino/Baileys-Itsukichann.git",
 "@shiroko/module": "github:shiroko-devs/star-module",
 "@adiwajshing/keyed-db": "^0.2.4",
